@@ -12,3 +12,2838 @@ Migrating to CreateCodes (20110919192719)
   [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("codes")[0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Mon Sep 19 14:41:27 -0500 2011
+Served asset /rails.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:42:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:42:48 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:47:48 -0500 2011
+  Processing by CodesController#index as HTML
+  [1m[36mCode Load (0.2ms)[0m  [1mSELECT "codes".* FROM "codes" [0m
+Rendered codes/index.html.erb within layouts/application (1.3ms)
+Compiled style.css  (0ms)  (pid 13790)
+Compiled noscript.css  (0ms)  (pid 13790)
+Compiled jquery.js  (2ms)  (pid 13790)
+Compiled underscore.js  (1ms)  (pid 13790)
+Compiled backbone.js  (1ms)  (pid 13790)
+Compiled app.js  (1ms)  (pid 13790)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+Served asset /style.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+Served asset /jquery.js - 200 OK (13ms)
+
+
+Started GET "/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+Served asset /underscore.js - 200 OK (18ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+Served asset /backbone.js - 200 OK (9ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+Served asset /app.js - 200 OK (9ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:47:49 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:47:59 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:47:59 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:47:59 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:47:59 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:47:59 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:47:59 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:48:09 -0500 2011
+  Processing by CodesController#index as HTML
+  [1m[35mCode Load (0.1ms)[0m  SELECT "codes".* FROM "codes" 
+Rendered codes/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:48:09 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:48:09 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:48:09 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:48:09 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:48:09 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:48:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:48:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:48:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:48:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:48:10 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:48:10 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:48:20 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:48:20 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:48:20 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:48:20 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:48:20 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:48:20 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:48:30 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:48:41 -0500 2011
+  Processing by CodesController#index as HTML
+  [1m[36mCode Load (0.2ms)[0m  [1mSELECT "codes".* FROM "codes" [0m
+Rendered codes/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:48:42 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:48:52 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:48:52 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:48:52 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:48:52 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:48:52 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:48:52 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:49:02 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+  Processing by CodesController#index as HTML
+  [1m[35mCode Load (0.2ms)[0m  SELECT "codes".* FROM "codes" 
+Rendered codes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+Served asset /style.css - 200 OK (1ms)
+
+
+Started GET "/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+Served asset /backbone.js - 200 OK (1ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+Served asset /app.js - 200 OK (5ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:49:23 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:49:33 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:49:33 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:49:33 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:49:33 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:49:33 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:49:33 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:49:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:49:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:50:35 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:51:46 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:51:51 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (94.2ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:52:02 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:52:02 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:52:02 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:52:02 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:52:02 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:52:02 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+Served asset /images/maps/map-1.jpg - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+Served asset /images/assoc/people-1.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:52:12 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:52:22 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:52:22 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:52:22 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:52:22 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:52:22 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:52:22 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Compiled raphael.js  (2ms)  (pid 13913)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:52:27 -0500 2011
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:27 -0500 2011
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:52:27 -0500 2011
+Served asset /images/maps/map-1.jpg - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+Served asset /images/assoc/people-1.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+Served asset /raphael.js - 200 OK (11ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:52:28 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:52:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:52:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:52:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:52:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:52:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:52:38 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+Served asset /images/maps/map-1.jpg - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/maps/map-1.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+Served asset /images/assoc/people-1.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/assoc/people-1.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:52:43 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:52:44 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:52:44 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:52:44 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:52:54 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:52:54 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:52:54 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:52:54 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:52:54 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:52:54 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:53:04 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /maps/map-1.jpg - 200 OK (35ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /assoc/people-1.png - 200 OK (27ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /raphael.js - 200 OK (0ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:53:07 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:53:17 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:53:17 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:53:17 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:53:17 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:53:17 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:53:17 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (83.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (87.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /maps/map-1.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /assoc/people-1.png - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /raphael.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:53:38 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:53:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:53:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:53:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:53:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:53:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:53:39 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:53:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:53:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:53:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:53:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:53:49 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:53:49 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:53:59 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:53:59 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:54:17 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/header_bg.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Compiled style.css  (0ms)  (pid 13913)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /style.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /header_bg.png - 200 OK (26ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/homepage_logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/home_main_button.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/go_background.png" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/go_background.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:54:19 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:54:20 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:54:20 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:54:30 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:54:30 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:54:30 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:54:30 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:54:30 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:54:30 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Compiled style.css  (0ms)  (pid 13913)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /style.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /homepage_logo.png - 200 OK (8ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:55 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+Served asset /home_main_button.png - 200 OK (26ms)
+
+
+Started GET "/assets/go_background.png" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+Served asset /go_background.png - 200 OK (6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:54:56 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:55:06 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:55:06 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:55:06 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:55:06 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:55:06 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:55:06 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:56:08 -0500 2011
+
+SyntaxError (/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:52: syntax error, unexpected tCONSTANT, expecting kEND
+...ect_to @code, :notice => 'Code was successfully created.' }
+                              ^
+/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:52: syntax error, unexpected tSTRING_BEG
+...ode was successfully created.' }
+                              ^
+/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:68: syntax error, unexpected tCONSTANT, expecting kEND
+...ect_to @code, :notice => 'Code was successfully updated.' }
+                              ^
+/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:68: syntax error, unexpected tSTRING_BEG
+...ode was successfully updated.' }
+                              ^):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:56:39 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:56:39 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:56:39 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:56:39 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /homepage_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /home_main_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/go_background.png" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+Served asset /go_background.png - 304 Not Modified (0ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:56:40 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:56:50 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:56:50 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:56:50 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:56:50 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:56:50 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:56:50 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 102ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /homepage_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home_main_button.png" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /home_main_button.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/go_background.png" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+Served asset /go_background.png - 304 Not Modified (0ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:57:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:57:29 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:57:29 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:57:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:57:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:57:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:57:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:57:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 14:57:39 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/page"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 14:58:45 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /style.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/wheels/1/outer.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/wheels/1/inner.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /logo.png - 200 OK (34ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-2.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:58:46 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-7.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+Served asset /code_o_graph.png - 200 OK (5ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/wheels/1/outer.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 14:58:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/wheels/1/inner.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /wheels/1/outer.png - 200 OK (32ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /wheels/1/inner.png - 200 OK (7ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/images/maps/map-6.jpg" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-6.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-3.jpg" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-3.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-4.jpg" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-4.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-5.jpg" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-5.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/maps/map-7.jpg" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/maps/map-7.jpg"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/maps/map-2.jpg" for 127.0.0.1 at Mon Sep 19 14:59:15 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/images/assoc/people-2.png" for 127.0.0.1 at Mon Sep 19 14:59:25 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-2.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-3.png" for 127.0.0.1 at Mon Sep 19 14:59:25 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-3.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-4.png" for 127.0.0.1 at Mon Sep 19 14:59:25 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-4.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-5.png" for 127.0.0.1 at Mon Sep 19 14:59:25 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-5.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-6.png" for 127.0.0.1 at Mon Sep 19 14:59:25 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/images/assoc/people-6.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/assoc/people-7.png" for 127.0.0.1 at Mon Sep 19 14:59:26 -0500 2011
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it.):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 14:59:36 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 14:59:36 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 14:59:37 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)

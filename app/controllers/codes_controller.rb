@@ -2,14 +2,19 @@ class CodesController < ApplicationController
   # GET /codes
   # GET /codes.json
   def index
-    @codes = Code.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render :json => @codes }
     end
   end
 
+  def page
+    respond_to do |format|
+      format.html # page.html.erb
+    end
+  end
+
+=begin
   # GET /codes/1
   # GET /codes/1.json
   def show
@@ -80,4 +85,5 @@ class CodesController < ApplicationController
       format.json { head :ok }
     end
   end
+=end
 end

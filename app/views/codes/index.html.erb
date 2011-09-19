@@ -1,33 +1,10 @@
-<h1>Listing codes</h1>
-
-<table>
-  <tr>
-    <th>Master</th>
-    <th>Key a</th>
-    <th>Key b</th>
-    <th>Message</th>
-    <th>Message coded</th>
-    <th>Ip</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @codes.each do |code| %>
-  <tr>
-    <td><%= code.master %></td>
-    <td><%= code.key_a %></td>
-    <td><%= code.key_b %></td>
-    <td><%= code.message %></td>
-    <td><%= code.message_coded %></td>
-    <td><%= code.ip %></td>
-    <td><%= link_to 'Show', code %></td>
-    <td><%= link_to 'Edit', edit_code_path(code) %></td>
-    <td><%= link_to 'Destroy', code, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Code', new_code_path %>
+<header>
+  <hgroup>
+    <h1>its Supermurgitroid</h1>
+    <h2>code and decode secret messages - post on facebook and twitter</h2>
+  </hgroup>
+</header>
+<nav id="home">
+  <a href="#">Supermurgitroid</a>
+  <a id="go" href="#">Go!</a>
+</nav>

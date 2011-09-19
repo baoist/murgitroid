@@ -1,5 +1,7 @@
 Murgitroid::Application.routes.draw do
   resources :codes
+  root :to => "codes#index"
+  match "/page" => "codes#page", :as => "page"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -71,7 +71,7 @@ body #header {
   z-index: 9;
   height: 46px;
   margin: 0;
-  background: url(../images/header_bg.png) repeat-x top left;
+  background: url(/assets/header_bg.png) repeat-x top left;
   position: absolute;
   display: block;
 }
@@ -126,7 +126,7 @@ body #wrapper #main_content section {
 header {
   position: relative;
   z-index: 2;
-  background: url(../images/header_bg.png) repeat-x top left;
+  background: url(/assets/header_bg.png) repeat-x top left;
 }
 
 header hgroup {
@@ -140,7 +140,7 @@ header h1, header h1 a {
 }
 
 header h1 a {
-  background: url(../images/logo.png) no-repeat top left;
+  background: url(/assets/logo.png) no-repeat top left;
   text-indent: -9999px;
   display: block;
   margin: 0;
@@ -170,7 +170,7 @@ hgroup h2 {
 }
 
 #content header h1 { /* home header */
-  background: url(../images/homepage_logo.png) no-repeat top left;
+  background: url(/assets/homepage_logo.png) no-repeat top left;
   text-indent: -9999px;
   width: 715px;
   height: 73px;
@@ -205,7 +205,7 @@ nav#home a {
   width: 329px;
   height: 329px;
   text-indent: -9999px;
-  background: url(../images/home_main_button.png) no-repeat top left;
+  background: url(/assets/home_main_button.png) no-repeat top left;
   float: none;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -214,7 +214,7 @@ nav#home a {
 nav#home a#go {
   width: 132px;
   height: 55px;
-  background: url(../images/go_background.png) no-repeat top left;
+  background: url(/assets/go_background.png) no-repeat top left;
 }
 
 /* code */
@@ -359,7 +359,7 @@ body #wrapper form .submit_area label {
   display: block;
   width: 565px;
   height: 395px;
-  background: url(../images/code_o_graph.png) no-repeat bottom left;
+  background: url(/assets/code_o_graph.png) no-repeat bottom left;
   margin: 5px 0 20px 285px;
 }
 
@@ -380,7 +380,7 @@ body #wrapper form .submit_area label {
 }
 
 .coded_message a.facebook_like {
-  background: url(../images/facebook_like.png) no-repeat top left;
+  background: url(/assets/facebook_like.png) no-repeat top left;
   width: 150px;
   height: 125px;
   text-indent: -9999px;

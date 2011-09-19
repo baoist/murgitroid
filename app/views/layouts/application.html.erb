@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Murgitroid</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>Murgitroid</title>
+    <%= stylesheet_link_tag "style" %>
+    <noscript><%= stylesheet_link_tag "noscript" %></noscript>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="maps" class="">
+      <img src="/assets/maps/map-1.jpg" />
+    </div>
+    <div id="people" class="">
+      <img src="/assets/assoc/people-1.png" />
+    </div>
+    <div id="header"></div>
+    <div id="wrapper">
+      <% if (request.fullpath == root_path) %>
+        <nav id="main">
+          <a href="#">Code Message</a>
+          <a href="#">Decode Message</a>
+          <a href="#">About</a>
+          <a href="#">FAQs</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </nav>
+      <% else %>
+        <header>
+          <hgroup>
+            <h1><a href="#code">its Supermurgitroid</a></h1>
+            <h2>code and decode secret messages - post on facebook and twitter</h2>
+          </hgroup>
+          <nav id="main">
+            <a href="#code">Code Message</a>
+            <a href="#decode">Decode Message</a>
+            <a href="#about">How It Works</a>
+            <a href="#faqs">FAQs</a>
+            <a href="#terms">Terms</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </header>
+      <% end %>
+      <section id="content">
+        <%= yield %>
+      <section>
+    </div>
+    <%= javascript_include_tag "jquery", "underscore", "backbone", "raphael", "app" %>
+  </body>
 </html>

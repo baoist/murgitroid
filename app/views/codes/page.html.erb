@@ -1,0 +1,81 @@
+<section id="main_content">
+</section>
+<section id="code">
+  <section class="coded_message">
+    <hgroup>
+      <h2>your message has been coded in time:</h2>
+      <h1>TEVA3 47KNW 44NAD SOXM2 ADZIR 8B</h1>
+    </hgroup>
+    <nav class="social_media">
+      <a href="#" class="facebook">Post on facebook</a>
+      <a href="#" class="twitter">Tweet</a>
+      <a href="#" class="email">Send with email</a>
+    </nav>
+  </section>
+  <form action="/encode" method="POST">
+    <section class="fields">
+      <label for="code_master"><span>1.</span>Pick a Master Code</label>
+      <input type="text" name="code_master" id="code_master" value="" maxlength="1">
+      <label for="code_key_one"><span>2.</span>Pick 2 Characters to Use as a Key</label>
+      <input type="text" id="code_key_one" name="code_key_one" value="" maxlength="1">
+      <span for="code_key_two">=</span>
+      <input type="text" id="code_key_two" name="code_key_two" value="" maxlength="1">
+    </section>
+    <section class="message">
+      <label for="code_message"><span>3.</span>Type Your Message</label>
+      <textarea name="code_message" id="code_message" maxlength="134"></textarea>
+    </section>
+    <section class="submit_area">
+      <label for="code_submit"><span>4.</span></label>
+      <input type="submit" value="Code Your Message!"  id="code_submit" class="submit">
+    </section>
+  </form>
+  <section id="code_wheel">
+    <img class="outer" src="/assets/wheels/1/outer.png" />
+    <img class="inner" src="/assets/wheels/1/inner.png" />
+  </section>
+</section>
+<section id="decode">
+  <form action="/encode" method="POST">
+    <section class="fields">
+      <label for="decode_master"><span>1.</span>Pick a Master Code</label>
+      <input type="text" name="decode_master" id="decode_master" value="" maxlength="1">
+      <label for="decode_key_one"><span>2.</span>Pick 2 Characters to Use as a Key</label>
+      <input type="text" id="decode_key_one" name="decode_key_one" value="" maxlength="1">
+      <span for="decode_key_two">=</span>
+      <input type="text" id="decode_key_two" name="decode_key_two" value="" maxlength="1">
+    </section>
+    <section class="message">
+      <label for="decode_message"><span>3.</span>Type Your Message</label>
+      <textarea name="decode_message" id="code_message" maxlength="134"></textarea>
+    </section>
+    <section class="submit_area">
+      <label for="decode_submit"><span>4.</span></label>
+      <input type="submit" id="decode_submit" value="Decode the Message!" class="submit">
+    </section>
+  </form>
+  <section id="decode_wheel">
+    <img class="outer" src="/assets/wheels/1/outer.png" />
+    <img class="inner" src="/assets/wheels/1/inner.png" />
+  </section>
+</section>
+<section id ="decoded" class="coded_message">
+  <hgroup>
+    <h2>your decoded message is:</h2>
+    <h1>TEVA3 47KNW 44NAD SOXM2 ADZIR 8B</h1>
+  </hgroup>
+  <a href="#code" class="new_code">Code a New Message</a>
+  <a href="#" class="facebook_like">Code a New Message</a>
+</section>
+<section id="about">
+  <p>foo</p>
+</section>
+<section id="faqs">
+  <p>bar</p>
+</section>
+<section id="terms">
+  <p>baz</p>
+</section>
+<section id="contact">
+  <p>wibble</p>
+</section>
