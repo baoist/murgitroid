@@ -29,9 +29,10 @@ class Transitioner
     @time = timer
 
   swap: (next, resets) ->
+    return false if @prev.attr('src') and @prev.attr('src') == next.attr('src')
     if resets then next.css(resets)
     next.appendTo(@prev.parent())
-    @transition @prev, @time, '-' + ($(@prev).height() + 50), ->
+    @transition @prev, @time, '-' + (@prev.height() + 50), ->
       $(this).detach()
     return false if !next
     self = @

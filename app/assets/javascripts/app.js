@@ -49,11 +49,14 @@
     }
     Transitioner.prototype.swap = function(next, resets) {
       var self;
+      if (this.prev.attr('src') && this.prev.attr('src') === next.attr('src')) {
+        return false;
+      }
       if (resets) {
         next.css(resets);
       }
       next.appendTo(this.prev.parent());
-      this.transition(this.prev, this.time, '-' + ($(this.prev).height() + 50), function() {
+      this.transition(this.prev, this.time, '-' + (this.prev.height() + 50), function() {
         return $(this).detach();
       });
       if (!next) {
