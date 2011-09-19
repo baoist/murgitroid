@@ -4,13 +4,24 @@ class CodesController < ApplicationController
   def index
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render :json => @codes }
     end
   end
 
   def page
     respond_to do |format|
       format.html # page.html.erb
+    end
+  end
+
+  def retrieve
+    @dir = params[:directory]
+    @files = Dir.glob(File.join(Rails.root, "app/assets/images/" + @dir + "/*"))
+#   if @directory == "maps"
+#     return ["images/maps/map-2.jpg", "images/maps/map-3.jpg", "images/maps/map-3.jpg", "images/maps/map-4.jpg", "images/maps/map-5.jpg", "images/maps/map-6.jpg", "images/maps/map-7.jpg"]
+#   else
+#     return ["images/assoc/people-2.png", "images/assoc/people-3.png", "images/assoc/people-4.png", "images/assoc/people-5.png", "images/assoc/people-6.png", "images/assoc/people-7.png"]
+    respond_to do |format|
+      format.json
     end
   end
 

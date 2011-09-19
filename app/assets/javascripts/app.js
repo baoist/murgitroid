@@ -17,11 +17,9 @@
       this.load_images();
     }
     Loader.prototype.retrieve = function() {
-      if (this.directory === "maps") {
-        return ["images/maps/map-2.jpg", "images/maps/map-3.jpg", "images/maps/map-3.jpg", "images/maps/map-4.jpg", "images/maps/map-5.jpg", "images/maps/map-6.jpg", "images/maps/map-7.jpg"];
-      } else {
-        return ["images/assoc/people-2.png", "images/assoc/people-3.png", "images/assoc/people-4.png", "images/assoc/people-5.png", "images/assoc/people-6.png", "images/assoc/people-7.png"];
-      }
+      return $.get('/retrieve/' + this.directory + '.json', function(data) {
+        return console.log(data);
+      });
     };
     Loader.prototype.load_images = function() {
       var item, _i, _len, _ref, _results;
@@ -245,11 +243,8 @@
       this.inner_image = this.R.image(this.inner[this.key], 35, 35, 265, 265);
     }
     Wheel.prototype.legend = function() {
-      var i, keys, _ref;
-      keys = [["D", "7", "R", "4", "9", "L", "K", "Y", "H", "0", "G", "8", "O", "T", "A", "E", "Z", "W", "3", "X", "2", "Q", "P", "F", "J", "B", "M", "5", "S", "I", "C", "V", "N", "1", "U", "6"]];
-      for (i = 0, _ref = this.inner.length - 1; 0 <= _ref ? i <= _ref : i >= _ref; 0 <= _ref ? i++ : i--) {
-        keys.push(["D", "7", "R", "4", "9", "L", "K", "Y", "H", "0", "G", "8", "O", "T", "A", "E", "Z", "W", "3", "X", "2", "Q", "P", "F", "J", "B", "M", "5", "S", "I", "C", "V", "N", "1", "U", "6"]);
-      }
+      var keys;
+      keys = [["D", "7", "R", "4", "9", "L", "K", "Y", "H", "0", "G", "8", "O", "T", "A", "E", "Z", "W", "3", "X", "2", "Q", "P", "F", "J", "B", "M", "5", "S", "I", "C", "V", "N", "1", "U", "6"], ["H", "1", "L", "7", "O", "P", "D", "E", "4", "Q", "V", "Y", "F", "K", "X", "6", "Z", "3", "2", "U", "M", "B", "S", "5", "G", "R", "C", "9", "W", "8", "J", "I", "N", "0", "A", "T"], ["4", "J", "I", "0", "5", "2", "A", "Y", "B", "L", "N", "U", "F", "D", "V", "Q", "1", "P", "8", "Z", "3", "G", "E", "M", "H", "C", "7", "O", "T", "R", "6", "X", "9", "W", "S", "K"], ["J", "7", "I", "T", "E", "P", "U", "2", "V", "S", "K", "D", "W", "8", "1", "F", "L", "H", "Z", "5", "N", "R", "B", "9", "O", "C", "G", "6", "Y", "3", "Q", "A", "M", "X", "4", "0"], ["J", "P", "W", "2", "B", "Q", "R", "S", "X", "H", "G", "T", "N", "1", "I", "U", "Z", "9", "L", "M", "6", "5", "0", "4", "O", "K", "8", "F", "C", "Y", "7", "A", "E", "V", "D", "3"], ["S", "Q", "3", "I", "4", "D", "A", "W", "U", "6", "R", "O", "M", "E", "V", "J", "1", "2", "F", "L", "G", "7", "T", "Y", "P", "C", "H", "X", "B", "N", "9", "0", "K", "5", "Z", "8"], ["2", "W", "7", "D", "T", "X", "B", "P", "8", "E", "H", "Q", "A", "3", "K", "I", "Z", "1", "6", "4", "M", "L", "S", "N", "U", "J", "R", "Y", "0", "9", "C", "F", "G", "O", "5", "V"], ["K", "Y", "L", "G", "M", "7", "3", "8", "V", "T", "E", "R", "C", "W", "I", "1", "0", "P", "D", "2", "X", "Q", "J", "6", "A", "5", "O", "B", "Z", "H", "F", "S", "U", "4", "N", "9"], ["5", "1", "D", "E", "P", "7", "Y", "C", "6", "X", "U", "T", "8", "0", "W", "K", "R", "M", "9", "J", "V", "4", "L", "A", "O", "I", "N", "Q", "Z", "3", "F", "H", "S", "2", "B", "G"], ["2", "S", "T", "8", "L", "5", "W", "9", "Q", "H", "P", "A", "1", "F", "B", "I", "O", "N", "Z", "7", "U", "G", "E", "C", "6", "X", "0", "M", "V", "3", "R", "J", "Y", "K", "4", "D"]];
       return keys;
     };
     Wheel.prototype.swap = function(new_key) {

@@ -1,0 +1,12 @@
+{
+  directory: "<%= @dir %>",
+  status: "<%= (@files.empty?)? "error" : "success" %>",
+  <% if !@files.empty? %>
+  files: {
+    <% @files.each_with_index do |file, index| %>
+      <%= index + 1 %>: "<%= file %>",
+    <% end %>
+  }
+  <% end %>
+}
+

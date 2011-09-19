@@ -2847,3 +2847,1796 @@ Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 14:59:37 -0500 2011
 Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Compiled app.js  (1ms)  (pid 13913)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /homepage_logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /app.js - 200 OK (24ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home_main_button.png" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /home_main_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/go_background.png" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+Served asset /go_background.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner" for 127.0.0.1 at Mon Sep 19 15:17:01 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homepage_logo.png" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /homepage_logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home_main_button.png" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /home_main_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/go_background.png" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+Served asset /go_background.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps" for 127.0.0.1 at Mon Sep 19 15:18:37 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc" for 127.0.0.1 at Mon Sep 19 15:18:38 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner" for 127.0.0.1 at Mon Sep 19 15:18:38 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at Mon Sep 19 15:18:41 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:18:44 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+  Processing by CodesController#retrieve as */*
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 127ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:18:45 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Compiled app.js  (1ms)  (pid 13913)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /style.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /raphael.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /app.js - 200 OK (4ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 15:19:10 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:19:11 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:19:19 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Compiled app.js  (1ms)  (pid 13913)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:19:22 -0500 2011
+Served asset /app.js - 200 OK (1ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:19:53 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps" for 127.0.0.1 at Mon Sep 19 15:20:18 -0500 2011
+  Processing by CodesController#retrieve as HTML
+  Parameters: {"directory"=>"maps"}
+Completed 406 Not Acceptable in 0ms
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:21:18 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:21:47 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:21:54 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/codes/index.json" for 127.0.0.1 at Mon Sep 19 15:22:22 -0500 2011
+  Processing by CodesController#show as JSON
+  Parameters: {"id"=>"index"}
+Completed 500 Internal Server Error in 12ms
+
+ActionView::MissingTemplate (Missing template codes/show, application/show with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en, :en], :formats=>[:json]}. Searched in:
+  * "/Users/Jesus/murgitroid/app/views"
+):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/codes/index.json" for 127.0.0.1 at Mon Sep 19 15:22:56 -0500 2011
+  Processing by CodesController#show as JSON
+  Parameters: {"id"=>"index"}
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template codes/show, application/show with {:handlers=>[:builder, :coffee, :erb], :locale=>[:en, :en], :formats=>[:json]}. Searched in:
+  * "/Users/Jesus/murgitroid/app/views"
+):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:22:57 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:22:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:26:38 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 127ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:27:03 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:27:08 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:27:12 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:27:17 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:27:24 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:27:56 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:28:12 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:28:29 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:28:39 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:34:23 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (38.9ms)
+Completed 500 Internal Server Error in 46ms
+
+ActionView::Template::Error (undefined local variable or method `success' for #<#<Class:0x4253574>:0x42513f0>):
+    1: {
+    2:   directory: "<%= @dir %>",
+    3:   status: "<%= (@files.nil?)? error : success %>",
+    4:   files: "foo"
+    5: }
+  app/views/codes/retrieve.json:3:in `_app_views_codes_retrieve_json__26165568_34767810'
+  app/controllers/codes_controller.rb:23:in `retrieve'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.8ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:34:34 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+ERROR: compiling _app_views_codes_retrieve_json__26165568_34341150 RAISED compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+....append= ( @files.nil? error : success );@output_buffer.safe...
+                              ^
+Function body:           def _app_views_codes_retrieve_json__26165568_34341150(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "codes/retrieve";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('{
+  directory: "');@output_buffer.append= ( @dir );@output_buffer.safe_concat('",
+  status: "');@output_buffer.append= ( @files.nil? error : success );@output_buffer.safe_concat('",
+  files: "foo"
+}
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/Jesus/murgitroid/app/views/codes/retrieve.json:10:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:268:in `retrieve_response_from_mimes'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:23:in `retrieve'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__729018050__process_action__757785696__callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/server.rb:265:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered codes/retrieve.json (0.9ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+....append= ( @files.nil? error : success );@output_buffer.safe...
+                              ^):
+    1: {
+    2:   directory: "<%= @dir %>",
+    3:   status: "<%= @files.nil? error : success %>",
+    4:   files: "foo"
+    5: }
+  app/views/codes/retrieve.json:10:in `compile'
+  app/controllers/codes_controller.rb:23:in `retrieve'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.7ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:35:52 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+ERROR: compiling _app_views_codes_retrieve_json__26165568_34865530 RAISED compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+...ppend= ( @files.nil? "error" : "success" );@output_buffer.sa...
+                              ^
+Function body:           def _app_views_codes_retrieve_json__26165568_34865530(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "codes/retrieve";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('{
+  directory: "');@output_buffer.append= ( @dir );@output_buffer.safe_concat('",
+  status: ');@output_buffer.append= ( @files.nil? "error" : "success" );@output_buffer.safe_concat(',
+  files: "foo"
+}
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/Jesus/murgitroid/app/views/codes/retrieve.json:10:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:268:in `retrieve_response_from_mimes'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:23:in `retrieve'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__729018050__process_action__757785696__callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/server.rb:265:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered codes/retrieve.json (0.8ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+...ppend= ( @files.nil? "error" : "success" );@output_buffer.sa...
+                              ^):
+    1: {
+    2:   directory: "<%= @dir %>",
+    3:   status: <%= @files.nil? "error" : "success" %>,
+    4:   files: "foo"
+    5: }
+  app/views/codes/retrieve.json:10:in `compile'
+  app/controllers/codes_controller.rb:23:in `retrieve'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:36:17 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (36.6ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (undefined local variable or method `success' for #<#<Class:0x41ebec4>:0x41e9d40>):
+    1: {
+    2:   directory: "<%= @dir %>",
+    3:   status: "<%= (@files.nil?)? error : success %>",
+    4:   files: "foo"
+    5: }
+  app/views/codes/retrieve.json:3:in `_app_views_codes_retrieve_json__26165568_34556020'
+  app/controllers/codes_controller.rb:23:in `retrieve'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:36:40 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:36:49 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:37:06 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:37:45 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (1.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `nil' for []:Array):
+    1: {
+    2:   directory: "<%= @dir %>",
+    3:   status: "<%= (@files.nil)? "error" : "success" %>",
+    4:   files: "<%= @files %>"
+    5: }
+  app/views/codes/retrieve.json:3:in `_app_views_codes_retrieve_json__26165568_34581470'
+  app/controllers/codes_controller.rb:23:in `retrieve'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:37:51 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+ERROR: compiling _app_views_codes_retrieve_json__26165568_34263480 RAISED compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append= ( (@files.nil?) "error" : "success" );@output_b...
+                              ^
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+...end= ( (@files.nil?) "error" : "success" );@output_buffer.sa...
+                              ^
+Function body:           def _app_views_codes_retrieve_json__26165568_34263480(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "codes/retrieve";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('{
+  directory: "');@output_buffer.append= ( @dir );@output_buffer.safe_concat('",
+  status: "');@output_buffer.append= ( (@files.nil?) "error" : "success" );@output_buffer.safe_concat('",
+  files: "');@output_buffer.append= ( @files );@output_buffer.safe_concat('"
+}
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/Jesus/murgitroid/app/views/codes/retrieve.json:10:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:268:in `retrieve_response_from_mimes'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:23:in `retrieve'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__729018050__process_action__757785696__callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/server.rb:265:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered codes/retrieve.json (1.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ffer.append= ( (@files.nil?) "error" : "success" );@output_b...
+                              ^
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+...end= ( (@files.nil?) "error" : "success" );@output_buffer.sa...
+                              ^):
+    1: {
+    2:   directory: "<%= @dir %>",
+    3:   status: "<%= (@files.nil?) "error" : "success" %>",
+    4:   files: "<%= @files %>"
+    5: }
+  app/views/codes/retrieve.json:10:in `compile'
+  app/controllers/codes_controller.rb:23:in `retrieve'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:39:19 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+ERROR: compiling _app_views_codes_retrieve_json__26165568_33927620 RAISED compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+...ppend= ( @files.nil? "error" : "success" );@output_buffer.sa...
+                              ^
+Function body:           def _app_views_codes_retrieve_json__26165568_33927620(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "codes/retrieve";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('{
+  directory: "');@output_buffer.append= ( @dir );@output_buffer.safe_concat('",
+  status: "');@output_buffer.append= ( @files.nil? "error" : "success" );@output_buffer.safe_concat('",
+  files: "');@output_buffer.append= ( @files );@output_buffer.safe_concat('"
+}
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/Jesus/murgitroid/app/views/codes/retrieve.json:10:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:268:in `retrieve_response_from_mimes'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/Users/Jesus/murgitroid/app/controllers/codes_controller.rb:23:in `retrieve'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__729018050__process_action__757785696__callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/etag.rb:23:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/conditionalget.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:195:in `context'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/session/abstract/id.rb:190:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/sendfile.rb:101:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/runtime.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/lock.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.3.3/lib/rack/server.rb:265:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered codes/retrieve.json (0.9ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (compile error
+/Users/Jesus/murgitroid/app/views/codes/retrieve.json:3: syntax error, unexpected ':', expecting ')'
+...ppend= ( @files.nil? "error" : "success" );@output_buffer.sa...
+                              ^):
+    1: {
+    2:   directory: "<%= @dir %>",
+    3:   status: "<%= @files.nil? "error" : "success" %>",
+    4:   files: "<%= @files %>"
+    5: }
+  app/views/codes/retrieve.json:10:in `compile'
+  app/controllers/codes_controller.rb:23:in `retrieve'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:39:25 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:39:47 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:41:37 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.6ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:41:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.7ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:43:04 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:43:18 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:43:26 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.6ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (121ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /app.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 15:45:25 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:45:26 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.6ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Mon Sep 19 15:45:26 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Mon Sep 19 15:45:26 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 15:45:26 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:45:26 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:45:31 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:45:52 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:04 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:13 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.2ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 15:46:16 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:27 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:36 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:47 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:50 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:46:51 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /app.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 15:48:38 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:48:39 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.2ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Mon Sep 19 15:48:39 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Mon Sep 19 15:48:39 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:48:39 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 15:48:39 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:48:41 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:48:52 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:49:56 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:50:09 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:50:19 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:50:41 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:50:54 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:51:08 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:51:24 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:51:39 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.2ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/foo.json" for 127.0.0.1 at Mon Sep 19 15:52:29 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"foo"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:52:38 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.7ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:52:38 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:53:52 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (93.3ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:54:02 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (1.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:54:07 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.7ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/foo.json" for 127.0.0.1 at Mon Sep 19 15:54:16 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"foo"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /style.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Rendered codes/retrieve.json (0.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Mon Sep 19 15:54:20 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Rendered codes/retrieve.json (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Mon Sep 19 15:54:21 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/page.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Mon Sep 19 15:54:21 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Rendered codes/retrieve.json (0.4ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Mon Sep 19 15:54:21 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
