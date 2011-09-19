@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Master:</b>
+  <%= @code.master %>
+</p>
+
+<p>
+  <b>Key a:</b>
+  <%= @code.key_a %>
+</p>
+
+<p>
+  <b>Key b:</b>
+  <%= @code.key_b %>
+</p>
+
+<p>
+  <b>Message:</b>
+  <%= @code.message %>
+</p>
+
+<p>
+  <b>Message coded:</b>
+  <%= @code.message_coded %>
+</p>
+
+<p>
+  <b>Ip:</b>
+  <%= @code.ip %>
+</p>
+
+
+<%= link_to 'Edit', edit_code_path(@code) %> |
+<%= link_to 'Back', codes_path %>

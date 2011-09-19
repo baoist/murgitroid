@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  master: 
+  key_a: MyString
+  key_b: MyString
+  message: MyText
+  message_coded: MyText
+  ip: MyString
+
+two:
+  master: 
+  key_a: MyString
+  key_b: MyString
+  message: MyText
+  message_coded: MyText
+  ip: MyString
