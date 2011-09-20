@@ -5,12 +5,18 @@ class Loader
     @fallback = fallback[0]
 
     @loaded = [@fallback]
-    @files = @retrieve()
-    @load_images()
+    @files = []
+    @retrieve()
 
   retrieve: ->
-    $.get '/retrieve/' + @directory + '.json', (data) ->
-      console.log data
+    self = @
+    current = $(@fallback).attr('src')
+
+    $.getJSON "/retrieve/" + @directory + ".json", (data) ->
+      for item in data
+        self.files.push(item) if item != current
+      self.load_images()
+    , "json"
 
   load_images: ->
     @load(item) for item in @files
@@ -29,7 +35,7 @@ class Transitioner
     @time = timer
 
   swap: (next, resets) ->
-    return false if @prev.attr('src') and @prev.attr('src') == next.attr('src')
+    return false if !!next.attr('src') and @prev.attr('src') == next.attr('src')
     if resets then next.css(resets)
     next.appendTo(@prev.parent())
     @transition @prev, @time, '-' + (@prev.height() + 50), ->
@@ -165,15 +171,19 @@ class Resize
 class Wheel
   constructor: (container, inner) ->
     @container = container
-    @inner = [$(container).find('.inner').attr('src')].concat(inner.files)
+    @wheel = inner
     @legends = @legend()
     @master = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","0","1","2","3","4","5","6","7","8","9"]
+    @inner = @set_inner()
 
     @key = 0
     @R = Raphael(@container.attr('id'), @container.width(), @container.height())
 
     @outer_image = @R.image(@container.find('.outer').attr('src'), 0, 0, 335, 335)
-    @inner_image = @R.image(@inner[@key], 35, 35, 265, 265)
+    @inner_image = @R.image(@inner[@key] or $(container).find('.inner').attr('src'), 35, 35, 265, 265)
+  
+  set_inner: ->
+    [$(@container).find('.inner').attr('src')].concat(@wheel.files)
 
   legend: () ->
     keys = [["D","7","R","4","9","L","K","Y","H","0","G","8","O","T","A","E","Z","W","3","X","2","Q","P","F","J","B","M","5","S","I","C","V","N","1","U","6"], ["H", "1", "L", "7", "O", "P", "D", "E", "4", "Q", "V", "Y", "F", "K", "X", "6", "Z", "3", "2", "U", "M", "B", "S", "5", "G", "R", "C", "9", "W", "8", "J", "I", "N", "0", "A", "T"], ["4", "J", "I", "0", "5", "2", "A", "Y", "B", "L", "N", "U", "F", "D", "V", "Q", "1", "P", "8", "Z", "3", "G", "E", "M", "H", "C", "7", "O", "T", "R", "6", "X", "9", "W", "S", "K"], ["J", "7", "I", "T", "E", "P", "U", "2", "V", "S", "K", "D", "W", "8", "1", "F", "L", "H", "Z", "5", "N", "R", "B", "9", "O", "C", "G", "6", "Y", "3", "Q", "A", "M", "X", "4", "0"], ["J", "P", "W", "2", "B", "Q", "R", "S", "X", "H", "G", "T", "N", "1", "I", "U", "Z", "9", "L", "M", "6", "5", "0", "4", "O", "K", "8", "F", "C", "Y", "7", "A", "E", "V", "D", "3"], ["S", "Q", "3", "I", "4", "D", "A", "W", "U", "6", "R", "O", "M", "E", "V", "J", "1", "2", "F", "L", "G", "7", "T", "Y", "P", "C", "H", "X", "B", "N", "9", "0", "K", "5", "Z", "8"], ["2", "W", "7", "D", "T", "X", "B", "P", "8", "E", "H", "Q", "A", "3", "K", "I", "Z", "1", "6", "4", "M", "L", "S", "N", "U", "J", "R", "Y", "0", "9", "C", "F", "G", "O", "5", "V"], ["K", "Y", "L", "G", "M", "7", "3", "8", "V", "T", "E", "R", "C", "W", "I", "1", "0", "P", "D", "2", "X", "Q", "J", "6", "A", "5", "O", "B", "Z", "H", "F", "S", "U", "4", "N", "9"], ["5", "1", "D", "E", "P", "7", "Y", "C", "6", "X", "U", "T", "8", "0", "W", "K", "R", "M", "9", "J", "V", "4", "L", "A", "O", "I", "N", "Q", "Z", "3", "F", "H", "S", "2", "B", "G"], ["2", "S", "T", "8", "L", "5", "W", "9", "Q", "H", "P", "A", "1", "F", "B", "I", "O", "N", "Z", "7", "U", "G", "E", "C", "6", "X", "0", "M", "V", "3", "R", "J", "Y", "K", "4", "D"]]
@@ -182,10 +192,11 @@ class Wheel
   swap: (new_key) ->
     self = @
     return false if new_key-1 == @key
+    @inner = @set_inner()
     @key = new_key-1 or 0
 
     @transition_swap @inner_image, 250, 135, 35, 0, ->
-      self.inner_image.attr("src", self.inner[0])
+      self.inner_image.attr("src", self.inner[self.key])
       self.transition_swap self.inner_image, 250, 35, 35, 1
 
   spin: (key_match, key)->
@@ -239,6 +250,8 @@ class Coder
       if key_val > 0 and key_val < 10
         @wheel.swap(key_val)
         return true
+      else
+        return false
     if $.inArray(key_val.toString().toUpperCase(), @wheel.master) != -1
       if $(element).attr('id') == @code_type + '_key_one' then @key_a = key_val
       if $(element).attr('id') == @code_type + '_key_two' then @key_b = key_val
@@ -288,5 +301,4 @@ jQuery(document).ready ->
 #
 ## TODO
 # code submit
-# json load retrievals
 # facebook and twitter

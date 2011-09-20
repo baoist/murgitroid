@@ -1,5 +1,6 @@
 Murgitroid::Application.routes.draw do
   resources :codes
+  resources :codes, :only => [:retrieve], :defaults => { :format => 'json' }
   root :to => "codes#index"
   match "/page" => "codes#page", :as => "page"
   match "/retrieve/:directory" => "codes#retrieve", :as => "retrieve"

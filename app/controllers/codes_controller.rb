@@ -15,13 +15,11 @@ class CodesController < ApplicationController
 
   def retrieve
     @dir = params[:directory]
-    @files = Dir.glob(File.join(Rails.root, "app/assets/images/" + @dir + "/*"))
-#   if @directory == "maps"
-#     return ["images/maps/map-2.jpg", "images/maps/map-3.jpg", "images/maps/map-3.jpg", "images/maps/map-4.jpg", "images/maps/map-5.jpg", "images/maps/map-6.jpg", "images/maps/map-7.jpg"]
-#   else
-#     return ["images/assoc/people-2.png", "images/assoc/people-3.png", "images/assoc/people-4.png", "images/assoc/people-5.png", "images/assoc/people-6.png", "images/assoc/people-7.png"]
+    @files = Dir.glob("app/assets/images/" + @dir + "/*[.png|.jpg]") # gets all files given a directory in /images/
+    @files.each_with_index do |file, index| @files[index] = file.gsub('app/assets/images', '/assets') end
+
     respond_to do |format|
-      format.json
+      format.json { render :json => @files }
     end
   end
 
