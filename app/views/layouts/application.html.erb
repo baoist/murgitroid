@@ -7,11 +7,12 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    
     <div id="maps" class="">
-      <img src="/assets/maps/map-1.jpg" />
+      <img src="<%= @images[0] %>" />
     </div>
     <div id="people" class="">
-      <img src="/assets/assoc/people-1.png" />
+      <img src="<%= @images[1] %>" />
     </div>
     <div id="header"></div>
     <div id="wrapper">

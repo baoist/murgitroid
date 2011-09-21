@@ -1,4 +1,9 @@
 class CodesController < ApplicationController
+  def imageset
+    @images = page_images(params[:current_page])
+  end
+
+  before_filter :imageset
   # GET /codes
   # GET /codes.json
   def index
@@ -8,15 +13,26 @@ class CodesController < ApplicationController
   end
 
   def page
+    @code = Code.new
+
     respond_to do |format|
       format.html # page.html.erb
     end
   end
 
+  def encode
+    @code = Code.new(params[:code])
+    @code.save
+
+    respond_to do |format|
+      format.html { redirect_to(page_url + "#code", :coded => "foo") }
+      format.json { render :json => { :coded => "foo"} }
+    end
+  end
+
   def retrieve
     @dir = params[:directory]
-    @files = Dir.glob("app/assets/images/" + @dir + "/*[.png|.jpg]") # gets all files given a directory in /images/
-    @files.each_with_index do |file, index| @files[index] = file.gsub('app/assets/images', '/assets') end
+    @files = files_from_dir("app/assets/images/" + @dir + "/*[.png|.jpg]")
 
     respond_to do |format|
       format.json { render :json => @files }

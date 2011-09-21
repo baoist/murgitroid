@@ -4,7 +4,7 @@ class Loader
     @directory = directory
     @fallback = fallback[0]
 
-    @loaded = [@fallback]
+    @loaded = []
     @files = []
     @retrieve()
 
@@ -75,7 +75,7 @@ class Page_Manager extends Backbone.View
     @disabled = false
     @main = $('#main_content')
 
-    initial_item = @init(window.location.href.split('#')[1])
+    initial_item = @init(window.location.href.split('/')[window.location.href.split('/').length-1])
 
     @time = 1100
     @trans_map = new Transitioner(initial_item.get('map'), @time)
@@ -87,14 +87,15 @@ class Page_Manager extends Backbone.View
   }
   
   init: (page) ->
-    page =  if !page then '#code' else '#' + page
+    page =  if !page or $.inArray('#' + page, @pages) == -1 then '#code' else '#' + page
     position = $.inArray(page, @pages)
+      
     title = page.replace('#', '')
-
     data = @get_data(page)
 
     starter = @create(data.title, data.map, data.assoc, $(page))
-    starter.get('content').appendTo(@main)
+    start_height = if starter.get('content').height() > $(window).height() then starter.get('content').height() else $(window).height() - $('header').height()
+    starter.get('content').height(start_height).appendTo(@main)
     @active = data.title
     starter
 
@@ -122,10 +123,10 @@ class Page_Manager extends Backbone.View
   
   get_data: (page) ->
     position = $.inArray(page, @pages)
-    { title: page.replace('#', ''), map: @get_image(@maps.loaded, position), assoc: @get_image(@assoc.loaded, position) }
+    { title: page.replace('#', ''), map: @get_image(@maps, position), assoc: @get_image(@assoc, position) }
 
   get_image: (array, position) ->
-    if array[position] then return array[position] else return array[0]
+    return if array.loaded.length >= position then array.loaded[position] else array.fallback
 
   get: (title) ->
     @collection.filter (page) ->
@@ -226,7 +227,7 @@ class Coder
     @disallow()
 
   disallow: ->
-    @fields = @form.find('input[type!=submit], textarea')
+    @fields = @form.find('input[type=text], textarea')
     @fields.not(':first').addClass('unavailable')
 
   allowed: (field) ->

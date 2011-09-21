@@ -1,0 +1,18 @@
+<%= form_for(@code, :url => encode_url) do |f| %>
+  <section class="fields">
+    <%= f.label :master, raw("<span>1.</span>Pick a Master Code (1-9)") %>
+    <%= f.text_field :master, :maxlength => 1 %>
+    <%= f.label :key_a, raw("<span>2.</span>Pick 2 Characters to Use as a Key") %>
+    <%= f.text_field :key_a, :maxlength => 1 %>
+    <span for="code_key_two">=</span> 
+    <%= f.text_field :key_b, :maxlength => 1 %>
+  </section> 
+  <section class="message"> 
+    <%= f.label :message, raw("<span>3.</span>Type Your Message") %>
+    <%= f.text_area :message, :maxlength => 133, :id => "code_message", :cols => "auto" %>
+  </section> 
+  <section class="submit_area"> 
+    <%= f.label :submit, raw("<span>4.</span>") %>
+    <%= f.submit "Code Your Message!", :id => "code_submit" %>
+  </section>
+<% end %>

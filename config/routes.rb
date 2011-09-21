@@ -1,8 +1,10 @@
 Murgitroid::Application.routes.draw do
   resources :codes
-  resources :codes, :only => [:retrieve], :defaults => { :format => 'json' }
   root :to => "codes#index"
   match "/page" => "codes#page", :as => "page"
+  match "/page/:current_page" => "codes#page", :as => "cpage"
+  match "/encode" => "codes#encode", :as => "encode"
+  match "/decode" => "codes#decode", :as => "decode"
   match "/retrieve/:directory" => "codes#retrieve", :as => "retrieve"
 
   # The priority is based upon order of creation:

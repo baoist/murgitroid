@@ -12,7 +12,7 @@
     function Loader(directory, fallback) {
       this.directory = directory;
       this.fallback = fallback[0];
-      this.loaded = [this.fallback];
+      this.loaded = [];
       this.files = [];
       this.retrieve();
     }
@@ -120,7 +120,7 @@
       this.pages = this.pagelist();
       this.disabled = false;
       this.main = $('#main_content');
-      initial_item = this.init(window.location.href.split('#')[1]);
+      initial_item = this.init(window.location.href.split('/')[window.location.href.split('/').length - 1]);
       this.time = 1100;
       this.trans_map = new Transitioner(initial_item.get('map'), this.time);
       this.trans_assoc = new Transitioner(initial_item.get('associated'), this.time);
@@ -130,13 +130,14 @@
       "click nav#main a": "nav"
     };
     Page_Manager.prototype.init = function(page) {
-      var data, position, starter, title;
-      page = !page ? '#code' : '#' + page;
+      var data, position, start_height, starter, title;
+      page = !page || $.inArray('#' + page, this.pages) === -1 ? '#code' : '#' + page;
       position = $.inArray(page, this.pages);
       title = page.replace('#', '');
       data = this.get_data(page);
       starter = this.create(data.title, data.map, data.assoc, $(page));
-      starter.get('content').appendTo(this.main);
+      start_height = starter.get('content').height() > $(window).height() ? starter.get('content').height() : $(window).height() - $('header').height();
+      starter.get('content').height(start_height).appendTo(this.main);
       this.active = data.title;
       return starter;
     };
@@ -169,15 +170,15 @@
       position = $.inArray(page, this.pages);
       return {
         title: page.replace('#', ''),
-        map: this.get_image(this.maps.loaded, position),
-        assoc: this.get_image(this.assoc.loaded, position)
+        map: this.get_image(this.maps, position),
+        assoc: this.get_image(this.assoc, position)
       };
     };
     Page_Manager.prototype.get_image = function(array, position) {
-      if (array[position]) {
-        return array[position];
+      if (array.loaded.length >= position) {
+        return array.loaded[position];
       } else {
-        return array[0];
+        return array.fallback;
       }
     };
     Page_Manager.prototype.get = function(title) {
@@ -306,7 +307,7 @@
       this.disallow();
     }
     Coder.prototype.disallow = function() {
-      this.fields = this.form.find('input[type!=submit], textarea');
+      this.fields = this.form.find('input[type=text], textarea');
       return this.fields.not(':first').addClass('unavailable');
     };
     Coder.prototype.allowed = function(field) {
