@@ -278,28 +278,22 @@ jQuery(document).ready ->
   maps_resize = new Resize($('#maps'), $('#maps').find('img'))
   assoc_resize = new Resize($('#people'), $('#people').find('img'))
 
-  pages = new Page_Manager(maps, assoc)
-
   $(window).resize ->
     maps_resize.state()
     assoc_resize.state()
 
-  inner = new Loader("inner", $("#code_wheel .inner"))
+  if $('#main_content').is('*')
+    pages = new Page_Manager(maps, assoc)
 
-  code_wheel = new Wheel($('#code_wheel'), inner)
-  decode_wheel = new Wheel($('#decode_wheel'), inner)
+    inner = new Loader("inner", $("#code_wheel .inner"))
 
-  coder = new Coder($('#code form'), code_wheel, 'code')
-  decoder = new Coder($('#decode form'), decode_wheel, 'decode')
+    code_wheel = new Wheel($('#code_wheel'), inner)
+    decode_wheel = new Wheel($('#decode_wheel'), inner)
 
-  $('#code form input').focus ->
-    code_focus(coder, this)
-  $('#decode form input').focus ->
-    code_focus(decoder, this)
+    coder = new Coder($('#code form'), code_wheel, 'code')
+    decoder = new Coder($('#decode form'), decode_wheel, 'decode')
 
-## NOTES
-# putting el outside of initialize is how you set the main element
-#
-## TODO
-# code submit
-# facebook and twitter
+    $('#code form input').focus ->
+      code_focus(coder, this)
+    $('#decode form input').focus ->
+      code_focus(decoder, this)

@@ -372,21 +372,23 @@
     assoc = new Loader("assoc", $('#people').find('img'));
     maps_resize = new Resize($('#maps'), $('#maps').find('img'));
     assoc_resize = new Resize($('#people'), $('#people').find('img'));
-    pages = new Page_Manager(maps, assoc);
     $(window).resize(function() {
       maps_resize.state();
       return assoc_resize.state();
     });
-    inner = new Loader("inner", $("#code_wheel .inner"));
-    code_wheel = new Wheel($('#code_wheel'), inner);
-    decode_wheel = new Wheel($('#decode_wheel'), inner);
-    coder = new Coder($('#code form'), code_wheel, 'code');
-    decoder = new Coder($('#decode form'), decode_wheel, 'decode');
-    $('#code form input').focus(function() {
-      return code_focus(coder, this);
-    });
-    return $('#decode form input').focus(function() {
-      return code_focus(decoder, this);
-    });
+    if ($('#main_content').is('*')) {
+      pages = new Page_Manager(maps, assoc);
+      inner = new Loader("inner", $("#code_wheel .inner"));
+      code_wheel = new Wheel($('#code_wheel'), inner);
+      decode_wheel = new Wheel($('#decode_wheel'), inner);
+      coder = new Coder($('#code form'), code_wheel, 'code');
+      decoder = new Coder($('#decode form'), decode_wheel, 'decode');
+      $('#code form input').focus(function() {
+        return code_focus(coder, this);
+      });
+      return $('#decode form input').focus(function() {
+        return code_focus(decoder, this);
+      });
+    }
   });
 }).call(this);
