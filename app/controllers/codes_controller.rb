@@ -15,6 +15,8 @@ class CodesController < ApplicationController
   def page
     @code = Code.new
 
+    puts encode_message(1, "Q", "S", "This is a test")
+    puts decode_message(1, "Q", "S", "B6RQR QCBDQ B")
     respond_to do |format|
       format.html # page.html.erb
     end

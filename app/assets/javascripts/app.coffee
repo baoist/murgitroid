@@ -293,7 +293,5 @@ jQuery(document).ready ->
     coder = new Coder($('#code form'), code_wheel, 'code')
     decoder = new Coder($('#decode form'), decode_wheel, 'decode')
 
-    $('#code form input').focus ->
-      code_focus(coder, this)
-    $('#decode form input').focus ->
-      code_focus(decoder, this)
+    $('#code form input').focus -> code_focus(coder, this)
+    $('#decode form input').focus -> code_focus(decoder, this)
