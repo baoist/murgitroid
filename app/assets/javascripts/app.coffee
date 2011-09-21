@@ -126,7 +126,7 @@ class Page_Manager extends Backbone.View
     { title: page.replace('#', ''), map: @get_image(@maps, position), assoc: @get_image(@assoc, position) }
 
   get_image: (array, position) ->
-    return if array.loaded.length >= position then array.loaded[position] else array.fallback
+    return if !!array.loaded[position] then array.loaded[position] else array.fallback
 
   get: (title) ->
     @collection.filter (page) ->
@@ -254,8 +254,8 @@ class Coder
       else
         return false
     if $.inArray(key_val.toString().toUpperCase(), @wheel.master) != -1
-      if $(element).attr('id') == @code_type + '_key_one' then @key_a = key_val
-      if $(element).attr('id') == @code_type + '_key_two' then @key_b = key_val
+      if $(element).attr('id') == @code_type + '_key_a' then @key_a = key_val
+      if $(element).attr('id') == @code_type + '_key_b' then @key_b = key_val
       @wheel.spin(@key_a, @key_b) if @key_a and @key_b
       return true
     false

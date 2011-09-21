@@ -44862,3 +44862,2508 @@ Served asset /inner/inside_8.png - 304 Not Modified (0ms)
 
 Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:07:08 -0500 2011
 Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/decode" for 127.0.0.1 at Wed Sep 21 09:08:57 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"decode"}
+Rendered codes/_code.html.erb (8.6ms)
+Rendered codes/page.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:08:57 -0500 2011
+Served asset /style.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:08:57 -0500 2011
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:08:57 -0500 2011
+Served asset /maps/map-2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:08:57 -0500 2011
+Served asset /assoc/people-2.png - 200 OK (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /wheels/1/outer.png - 200 OK (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /wheels/1/inner.png - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /raphael.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /logo.png - 200 OK (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /header_bg.png - 200 OK (0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /code_o_graph.png - 200 OK (0ms)
+
+
+Started GET "/page/decode" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"decode"}
+Rendered codes/_code.html.erb (10.3ms)
+Rendered codes/page.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /assoc/people-1.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /assoc/people-5.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /assoc/people-3.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /assoc/people-7.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /assoc/people-6.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /assoc/people-4.png - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:08:58 -0500 2011
+Served asset /maps/map-1.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /maps/map-3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /maps/map-4.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /maps/map-5.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /maps/map-6.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_2.png - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /maps/map-7.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_3.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_4.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_7.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_5.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_8.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_6.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:08:59 -0500 2011
+Served asset /inner/inside_9.png - 200 OK (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:09:00 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/_code.html.erb (8.3ms)
+Rendered codes/page.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:00 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:09:01 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:09:01 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/_code.html.erb (10.6ms)
+Rendered codes/page.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:09:01 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:09:01 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/decode" for 127.0.0.1 at Wed Sep 21 09:09:11 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"decode"}
+Rendered codes/_code.html.erb (10.1ms)
+Rendered codes/page.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:11 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:11 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:09:12 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:09:12 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:09:12 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/decode" for 127.0.0.1 at Wed Sep 21 09:09:12 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"decode"}
+Rendered codes/_code.html.erb (9.0ms)
+Rendered codes/page.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Wed Sep 21 09:09:17 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (8.3ms)
+Rendered codes/page.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:17 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:17 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:09:17 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:09:17 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:09:17 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Wed Sep 21 09:09:17 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (8.4ms)
+Rendered codes/page.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/contact" for 127.0.0.1 at Wed Sep 21 09:09:42 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"contact"}
+Rendered codes/_code.html.erb (8.6ms)
+Rendered codes/page.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:42 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:42 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:09:42 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:09:42 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:09:42 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/contact" for 127.0.0.1 at Wed Sep 21 09:09:42 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"contact"}
+Rendered codes/_code.html.erb (8.7ms)
+Rendered codes/page.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:09:56 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:09:57 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:09:57 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:09:57 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:09:57 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/contact" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"contact"}
+Rendered codes/_code.html.erb (9.2ms)
+Rendered codes/page.html.erb within layouts/application (10.3ms)
+Compiled app.js  (1ms)  (pid 16850)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /style.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /app.js - 200 OK (3ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:09:58 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/contact" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"contact"}
+Rendered codes/_code.html.erb (18.0ms)
+Rendered codes/page.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:09:59 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:10:03 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/_code.html.erb (23.3ms)
+Rendered codes/page.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:03 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:10:03 -0500 2011
+Served asset /style.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/_code.html.erb (10.7ms)
+Rendered codes/page.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:10:04 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:10:05 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:10:08 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/_code.html.erb (9.1ms)
+Rendered codes/page.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/contact" for 127.0.0.1 at Wed Sep 21 09:10:10 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"contact"}
+Rendered codes/_code.html.erb (9.4ms)
+Rendered codes/page.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Wed Sep 21 09:10:12 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (11.8ms)
+Rendered codes/page.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:12 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:10:12 -0500 2011
+Served asset /style.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:10:12 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:10:12 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:10:12 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:10:12 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (2ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/_code.html.erb (14.7ms)
+Rendered codes/page.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 35ms (Views: 32.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:10:13 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (9.3ms)
+Rendered codes/page.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 157ms (Views: 154.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:10:14 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (1ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (12.5ms)
+Rendered codes/page.html.erb within layouts/application (13.8ms)
+Compiled app.js  (1ms)  (pid 16850)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /app.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:10:40 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (10.6ms)
+Rendered codes/page.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:10:41 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:10:49 -0500 2011
+  Processing by CodesController#page as HTML
+Rendered codes/_code.html.erb (8.2ms)
+Rendered codes/page.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:49 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:10:49 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:10:49 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:10:49 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:10:49 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:10:49 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+  Processing by CodesController#page as */*
+Rendered codes/_code.html.erb (12.8ms)
+Rendered codes/page.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 38ms (Views: 34.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:10:50 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/decode" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"decode"}
+Rendered codes/_code.html.erb (8.3ms)
+Rendered codes/page.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /style.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/decode" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"decode"}
+Rendered codes/_code.html.erb (9.1ms)
+Rendered codes/page.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:10:59 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (8.4ms)
+Rendered codes/page.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (9.1ms)
+Rendered codes/page.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:11:09 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:25:51 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:25:51 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:25:51 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:25:51 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:25:52 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:18 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (9.2ms)
+Rendered codes/page.html.erb within layouts/application (10.3ms)
+Compiled app.js  (1ms)  (pid 16850)
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:18 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:26:18 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /app.js - 200 OK (2ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (10.0ms)
+Rendered codes/page.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (9.6ms)
+Rendered codes/page.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (10.2ms)
+Rendered codes/page.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (13.1ms)
+Rendered codes/page.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 101ms (Views: 87.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:26:19 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:26:20 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:26:20 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:26:20 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:26:20 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:26:20 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (14.9ms)
+Rendered codes/page.html.erb within layouts/application (16.1ms)
+Compiled app.js  (1ms)  (pid 16850)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /app.js - 200 OK (2ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:26:47 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (9.9ms)
+Rendered codes/page.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 36ms (Views: 32.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:26:48 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:49 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (10.5ms)
+Rendered codes/page.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:49 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (11.9ms)
+Rendered codes/page.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:26:49 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (10.5ms)
+Rendered codes/page.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:05 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (11.3ms)
+Rendered codes/page.html.erb within layouts/application (17.7ms)
+Compiled app.js  (1ms)  (pid 16850)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:27:05 -0500 2011
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:05 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:27:05 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:27:05 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:27:05 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:27:05 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+Served asset /app.js - 200 OK (7ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (9.4ms)
+Rendered codes/page.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (13.1ms)
+Rendered codes/page.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (8.5ms)
+Rendered codes/page.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:06 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (13.8ms)
+Rendered codes/page.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:27:07 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (14.2ms)
+Rendered codes/page.html.erb within layouts/application (15.6ms)
+Compiled app.js  (1ms)  (pid 16850)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /style.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /app.js - 200 OK (3ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:27:44 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (15.8ms)
+Rendered codes/page.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:27:45 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (10.0ms)
+Rendered codes/page.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (10.4ms)
+Rendered codes/page.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:27:46 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (16.5ms)
+Rendered codes/page.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (8.9ms)
+Rendered codes/page.html.erb within layouts/application (10.5ms)
+Compiled app.js  (1ms)  (pid 16850)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /app.js - 200 OK (2ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 211ms (Views: 209.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:28:01 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (9.8ms)
+Rendered codes/page.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (9.1ms)
+Rendered codes/page.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (8.7ms)
+Rendered codes/page.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/page/faqs" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"faqs"}
+Rendered codes/_code.html.erb (12.7ms)
+Rendered codes/page.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Wed Sep 21 09:28:02 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)

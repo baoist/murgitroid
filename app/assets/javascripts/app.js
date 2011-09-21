@@ -175,7 +175,7 @@
       };
     };
     Page_Manager.prototype.get_image = function(array, position) {
-      if (array.loaded.length >= position) {
+      if (!!array.loaded[position]) {
         return array.loaded[position];
       } else {
         return array.fallback;
@@ -335,10 +335,10 @@
         }
       }
       if ($.inArray(key_val.toString().toUpperCase(), this.wheel.master) !== -1) {
-        if ($(element).attr('id') === this.code_type + '_key_one') {
+        if ($(element).attr('id') === this.code_type + '_key_a') {
           this.key_a = key_val;
         }
-        if ($(element).attr('id') === this.code_type + '_key_two') {
+        if ($(element).attr('id') === this.code_type + '_key_b') {
           this.key_b = key_val;
         }
         if (this.key_a && this.key_b) {
