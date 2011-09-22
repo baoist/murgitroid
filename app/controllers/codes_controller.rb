@@ -36,8 +36,7 @@ class CodesController < ApplicationController
   end
 
   def decode
-    master = params[:decode_master].to_i
-    @message = decode_message(1, params[:decode_key_a], params[:decode_key_b], params[:message])
+    @message = decode_message(params[:decode_master], params[:decode_key_a], params[:decode_key_b], params[:message])
 
     respond_to do |format|
       format.html { render :action => "page", :current_page => "decoded", :message => @message }

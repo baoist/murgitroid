@@ -110,7 +110,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.1.0)
   jquery-rails
-  json (= 1.4.6)
+  json
   rails (= 3.1.0)
   sass-rails (~> 3.1.0)
   sqlite3

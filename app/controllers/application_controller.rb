@@ -40,7 +40,6 @@ class ApplicationController < ActionController::Base
 
   def decode_message(master_key, a, b, message)
     key = inner_codes()[master_key.to_i - 1]
-    puts key
     offset = master_code().index(a.to_s.capitalize) - key.index(b.to_s.capitalize)
     split_msg = message.split(//).delete_if { |l| l.match(/[^0-9A-Za-z]/) }
 
