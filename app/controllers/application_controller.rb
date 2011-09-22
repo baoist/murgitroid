@@ -35,7 +35,7 @@ class ApplicationController < ActionController::Base
       position = (position > 35)? -36 + position : position
       split_msg[ind] = master_code()[position]
     end
-    return split_msg.join
+    return split_msg.join.scan(/.{5}|.+/).join(" ")
   end
 
   def decode_message(master_key, a, b, message)
@@ -49,6 +49,6 @@ class ApplicationController < ActionController::Base
       position = (position > 35)? -36 + position : position
       split_msg[ind] = key[position]
     end
-    return split_msg.join
+    return split_msg.join.scan(/.{5}|.+/).join(" ")
   end
 end

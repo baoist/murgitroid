@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
     <title>Murgitroid</title>
     <%= stylesheet_link_tag "style" %>
     <noscript><%= stylesheet_link_tag "noscript" %></noscript>
     <%= csrf_meta_tags %>
+    <meta property="og:site_name" content="Its-SuperMurgitroid" /> 
+    <meta property="og:image" content="/assets/fb_icon.png" /> 
   </head>
   <body>
-    
     <div id="maps" class="">
       <img src="<%= @images[0] %>" />
     </div>

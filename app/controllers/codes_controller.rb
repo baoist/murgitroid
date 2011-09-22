@@ -14,9 +14,9 @@ class CodesController < ApplicationController
 
   def page
     @code = Code.new
+    @message = params[:message]
+    puts @message
 
-    puts encode_message(1, "Q", "S", "This is a test")
-    puts decode_message(1, "Q", "S", "B6RQR QCBDQ B")
     respond_to do |format|
       format.html # page.html.erb
     end
@@ -24,10 +24,13 @@ class CodesController < ApplicationController
 
   def encode
     @code = Code.new(params[:code])
+    @code.message_coded = encode_message(@code.master, @code.key_a, @code.key_b, @code.message)
+    @code.ip = request.remote_ip
+    @message = @code
     @code.save
 
     respond_to do |format|
-      format.html { redirect_to(page_url + "#code", :coded => "foo") }
+      format.html { render :action => "page", :current_page => "code", :message => @message }
       format.json { render :json => { :coded => "foo"} }
     end
   end

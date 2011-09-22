@@ -1,17 +1,19 @@
 <section id="main_content">
 </section>
 <section id="code">
+  <% unless !@message %>
   <section class="coded_message">
     <hgroup>
       <h2>your message has been coded in time:</h2>
-      <h1>TEVA3 47KNW 44NAD SOXM2 ADZIR 8B</h1>
+      <h1><%= @message.message_coded %></h1>
     </hgroup>
     <nav class="social_media">
-      <a href="#" class="facebook">Post on facebook</a>
-      <a href="#" class="twitter">Tweet</a>
-      <a href="#" class="email">Send with email</a>
+      <a href="http://www.facebook.com/share.php?u=<%= page_url %>/decode&amp;t=Decode+My+Message+on+ItsSuperMurgitroid" class="facebook" target="_new">Post on facebook</a>
+      <a href="http://twitter.com/home?status=<%= @message.message_coded%> %23itsSM"  target="_new" class="twitter">Tweet</a>
+      <a href="mailto:" class="email">Send with email</a>
     </nav>
   </section>
+  <% end %>
   <%= render 'code' %>
   <section id="code_wheel">
     <img class="outer" src="/assets/wheels/1/outer.png" />
