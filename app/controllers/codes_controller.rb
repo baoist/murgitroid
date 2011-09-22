@@ -30,16 +30,17 @@ class CodesController < ApplicationController
     @code.save
 
     respond_to do |format|
-      format.html { render :action => "page", :current_page => "code", :message => @message }
+      format.html { render :action => "page", :current_page => "code" }
       format.json { render :json => { :coded => "foo"} }
     end
   end
 
-  def decode
-    @message = decode_message(params[:decode_master], params[:decode_key_a], params[:decode_key_b], params[:message])
+  def decoded
+    @code = Code.new
+    @decoded = decode_message(params[:decode_master], params[:decode_key_a], params[:decode_key_b], params[:decode_message])
 
     respond_to do |format|
-      format.html { render :action => "page", :current_page => "decoded", :message => @message }
+      format.html { render :action => "page", :current_page => "decoded" }
       format.json { render :json => { :coded => "foo"} }
     end
   end

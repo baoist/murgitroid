@@ -21,7 +21,7 @@
   </section>
 </section>
 <section id="decode">
-  <form action="/decode" method="POST">
+  <form action="/decoded" method="POST">
     <section class="fields">
       <label for="decode_master"><span>1.</span>Pick a Master Code</label>
       <input type="text" name="decode_master" id="decode_master" value="" maxlength="1">
@@ -47,7 +47,7 @@
 <section id ="decoded" class="coded_message">
   <hgroup>
     <h2>your decoded message is:</h2>
-    <h1>TEVA3 47KNW 44NAD SOXM2 ADZIR 8B</h1>
+    <h1><%= @decoded if !@decoded.nil? %></h1>
   </hgroup>
   <a href="#code" class="new_code">Code a New Message</a>
   <a href="#" class="facebook_like">Code a New Message</a>

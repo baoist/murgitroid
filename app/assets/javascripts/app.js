@@ -206,6 +206,7 @@
         section = _ref[_i];
         pages.push($(section).attr('href'));
       }
+      pages.push("#decoded");
       return pages;
     };
     Page_Manager.prototype.set = function(page) {

@@ -142,6 +142,7 @@ class Page_Manager extends Backbone.View
   pagelist: -> # gets the ids of all the pages for positioning
     pages = []
     pages.push $(section).attr('href') for section in $('nav#main a')
+    pages.push "#decoded"
     pages
     
   set: (page) -> # need to check whether current exists or not to determine how to act

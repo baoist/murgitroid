@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   end
 
   def page_images(url) # for maps and people on load
-    pages = ["code", "decode", "about", "faqs", "terms", "contact"]
+    pages = ["code", "decode", "about", "faqs", "terms", "contact", "decoded"]
     maps = files_from_dir("app/assets/images/maps/*[.png|.jpg]")
     assoc = files_from_dir("app/assets/images/assoc/*[.png|.jpg]")
 

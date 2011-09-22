@@ -4,7 +4,7 @@ Murgitroid::Application.routes.draw do
   match "/page" => "codes#page", :as => "page"
   match "/page/:current_page" => "codes#page", :as => "cpage"
   match "/encode" => "codes#encode", :as => "encode"
-  match "/decode" => "codes#decode", :as => "decode"
+  match "/decoded" => "codes#decoded", :as => "decoded"
   match "/retrieve/:directory" => "codes#retrieve", :as => "retrieve"
 
   # The priority is based upon order of creation:
