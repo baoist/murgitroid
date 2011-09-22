@@ -21,7 +21,7 @@ gem 'jquery-rails'
 
 group :production do
   # gems specific to Heroku go here
-  gem "postgres-pr"
+  gem "pr"
 end
 
 # Use unicorn as the web server
