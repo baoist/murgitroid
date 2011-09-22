@@ -20,8 +20,8 @@ end
 gem 'jquery-rails'
 
 group :production do
-  # gems specifically for Heroku go here
-  gem "pg"
+  # gems specific to Heroku go here
+  gem "postgres-pr"
 end
 
 # Use unicorn as the web server
