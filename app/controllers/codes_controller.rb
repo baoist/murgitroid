@@ -35,6 +35,15 @@ class CodesController < ApplicationController
     end
   end
 
+  def decode
+    @message = decode_message(params[:decode_master], params[:decode_key_a], params[:decode_key_b], params[:message])
+
+    respond_to do |format|
+      format.html { render :action => "page", :current_page => "decoded", :message => @message }
+      format.json { render :json => { :coded => "foo"} }
+    end
+  end
+
   def retrieve
     @dir = params[:directory]
     @files = files_from_dir("app/assets/images/" + @dir + "/*[.png|.jpg]")
