@@ -27,11 +27,17 @@ class CodesController < ApplicationController
     @code.message_coded = encode_message(@code.master, @code.key_a, @code.key_b, @code.message)
     @code.ip = request.remote_ip
     @message = @code
-    @code.save
+
+    @code.save if @code.message_coded
 
     respond_to do |format|
-      format.html { render :action => "page", :current_page => "code" }
-      format.json { render :json => { :coded => "foo"} }
+      if @message.message_coded
+        format.html { render :action => "page", :current_page => @message }
+        format.json { render :json => { :coded => "foo"} }
+      else
+        format.html { redirect_to page_url + "/code" }
+        format.json { render :json => { :status => "error" } }
+      end
     end
   end
 
@@ -40,8 +46,13 @@ class CodesController < ApplicationController
     @decoded = decode_message(params[:decode_master], params[:decode_key_a], params[:decode_key_b], params[:decode_message])
 
     respond_to do |format|
-      format.html { render :action => "page", :current_page => "decoded" }
-      format.json { render :json => { :coded => "foo"} }
+      if @decoded
+        format.html { render :action => "page", :current_page => "decoded" }
+        format.json { render :json => { :status => "success" } }
+      else
+        format.html { redirect_to page_url + "/decode" }
+        format.json { render :json => { :status => "error" } }
+      end
     end
   end
 

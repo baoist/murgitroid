@@ -370,8 +370,9 @@ body #wrapper form .submit_area label {
 /* decode */
 .coded_message a.new_code {
   background: #2D1406;
-  padding: 2px 7px;
+  padding: 8px 8px 0 8px;
   font-size: 40px;
+  line-height: 40px;
   color: #2D1406;
   background: #FFE6B7;
   margin: 210px 300px 0 330px;

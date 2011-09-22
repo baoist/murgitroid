@@ -83,7 +83,8 @@ class Page_Manager extends Backbone.View
     @trans_content = new Transitioner(initial_item.get('content'), @time)
   
   events: {
-    "click nav#main a" : "nav"
+    "click nav#main a" : "nav",
+    "click .new_code" : "nav"
   }
   
   init: (page) ->
@@ -278,6 +279,9 @@ jQuery(document).ready ->
   assoc = new Loader("assoc", $('#people').find('img')) # change to people
   maps_resize = new Resize($('#maps'), $('#maps').find('img'))
   assoc_resize = new Resize($('#people'), $('#people').find('img'))
+
+  maps_resize.state()
+  assoc_resize.state()
 
   $(window).resize ->
     maps_resize.state()

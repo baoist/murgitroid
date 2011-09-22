@@ -127,7 +127,8 @@
       return this.trans_content = new Transitioner(initial_item.get('content'), this.time);
     };
     Page_Manager.prototype.events = {
-      "click nav#main a": "nav"
+      "click nav#main a": "nav",
+      "click .new_code": "nav"
     };
     Page_Manager.prototype.init = function(page) {
       var data, position, start_height, starter, title;
@@ -373,6 +374,8 @@
     assoc = new Loader("assoc", $('#people').find('img'));
     maps_resize = new Resize($('#maps'), $('#maps').find('img'));
     assoc_resize = new Resize($('#people'), $('#people').find('img'));
+    maps_resize.state();
+    assoc_resize.state();
     $(window).resize(function() {
       maps_resize.state();
       return assoc_resize.state();

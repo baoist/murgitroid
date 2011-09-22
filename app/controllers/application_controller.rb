@@ -25,6 +25,7 @@ class ApplicationController < ActionController::Base
   end
 
   def encode_message(master_key, a, b, message)
+    return false if ![master_key, a, b, message].index("").nil?
     key = inner_codes()[master_key.to_i - 1]
     offset = master_code().index(a.to_s.capitalize) - key.index(b.to_s.capitalize)
     split_msg = message.split(//).delete_if { |l| l.match(/[^0-9A-Za-z]/) }
@@ -39,6 +40,7 @@ class ApplicationController < ActionController::Base
   end
 
   def decode_message(master_key, a, b, message)
+    return false if ![master_key, a, b, message].index("").nil?
     key = inner_codes()[master_key.to_i - 1]
     offset = master_code().index(a.to_s.capitalize) - key.index(b.to_s.capitalize)
     split_msg = message.split(//).delete_if { |l| l.match(/[^0-9A-Za-z]/) }
