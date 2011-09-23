@@ -288,7 +288,7 @@ body #wrapper form .message label {
 }
 
 body #wrapper form .message textarea {
-  width 238px;
+  width: 177px;
   height: 101px;
   padding: 5px;
   font-size: 14px;
@@ -341,8 +341,9 @@ body #wrapper form .submit_area label {
 .coded_message .social_media a {
   background: #2D1406;
   font-size: 40px;
-  padding: 8px 8px 0 8px;
-  line-height: 40px;
+  padding: 4px 8px;
+  height: 42px;
+  line-height: 50px;
 }
 
 .coded_message .social_media a.email {
@@ -370,9 +371,10 @@ body #wrapper form .submit_area label {
 /* decode */
 .coded_message a.new_code {
   background: #2D1406;
-  padding: 8px 8px 0 8px;
+  padding: 4px 8px;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 50px;
+  height: 42px;
   color: #2D1406;
   background: #FFE6B7;
   margin: 210px 300px 0 330px;
