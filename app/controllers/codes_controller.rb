@@ -48,7 +48,7 @@ class CodesController < ApplicationController
     respond_to do |format|
       if @decoded
         format.html { render :action => "page", :current_page => "decoded" }
-        format.json { render :json => { :status => "success" } }
+        format.json { render :json => { :status => "success", :message => @decoded } }
       else
         format.html { redirect_to page_url + "/decode" }
         format.json { render :json => { :status => "error" } }

@@ -207,7 +207,6 @@
         section = _ref[_i];
         pages.push($(section).attr('href'));
       }
-      pages.push("#decoded");
       return pages;
     };
     Page_Manager.prototype.set = function(page) {
@@ -375,7 +374,18 @@
       new_el.prependTo(container);
       return new_el.slideToggle(time);
     };
-    Coder.prototype.decode = function() {};
+    Coder.prototype.decode = function() {
+      var data, self;
+      data = this.form.serializeArray();
+      self = this;
+      return $.post(this.form.attr('action') + '.json', data, function(data) {
+        if (data.status === "error") {
+          return false;
+        }
+        $('#decoded').find('hgroup h1').text(data.message);
+        return $('#decoded_link').click();
+      });
+    };
     Coder.prototype.check = function(key_val, element, char_pos) {
       if ($(element).val().length === 1) {
         return false;
@@ -448,7 +458,7 @@
         return false;
       });
       $('#new_decode').submit(function() {
-        coder.code();
+        decoder.decode();
         return false;
       });
     }

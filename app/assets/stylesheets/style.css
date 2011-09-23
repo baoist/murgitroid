@@ -364,6 +364,10 @@ body #wrapper form .submit_area label {
   padding-bottom: 40px;
 }
 
+#decoded_link {
+  display: none !important;
+}
+
 #code_wheel img, #decode_wheel img {
   position: absolute;
   display: none;

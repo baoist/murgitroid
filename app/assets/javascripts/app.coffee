@@ -143,7 +143,6 @@ class Page_Manager extends Backbone.View
   pagelist: -> # gets the ids of all the pages for positioning
     pages = []
     pages.push $(section).attr('href') for section in $('nav#main a')
-    pages.push "#decoded"
     pages
     
   set: (page) -> # need to check whether current exists or not to determine how to act
@@ -279,6 +278,13 @@ class Coder
     new_el.slideToggle time
     
   decode: ->
+    data = @form.serializeArray()
+    self = @
+
+    $.post @form.attr('action') + '.json', data, (data) ->
+      return false if data.status == "error"
+      $('#decoded').find('hgroup h1').text(data.message)
+      $('#decoded_link').click()
     
   check: (key_val, element, char_pos) ->
     return false if $(element).val().length == 1
@@ -335,7 +341,7 @@ jQuery(document).ready ->
       coder.code()
       false
     $('#new_decode').submit ->
-      coder.code()
+      decoder.decode()
       false
 
   maps_resize.state()
