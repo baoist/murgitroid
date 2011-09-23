@@ -339,26 +339,21 @@
       });
     };
     Coder.prototype.show_code = function(container, message) {
-      var navi, new_el, self;
+      var navi, new_el, self, time;
       self = this;
+      time = 'slow';
       if ($('.coded_message').is('*')) {
-        $('.coded_message').slideToggle('slow', function() {
+        $('.coded_message').slideToggle(time, function() {
           $(this).remove();
           return self.show_code(container, message);
         });
         return false;
       }
       if ($('#code_wheel').is('*')) {
-        $('#code_wheel').slideToggle('slow', function() {
+        $('#code_wheel').slideToggle(time, function() {
           return $(this).remove();
         });
       }
-      $('<div>', {
-        "class": 'coded_message',
-        children: $('<h2>', {
-          text: message
-        })
-      }).appendTo(container);
       new_el = $('<div>').addClass('coded_message').css('display', 'none');
       new_el.append('<hgroup>').append('<h2>your message</h2><h1>' + message + '</h1>');
       navi = $('<nav>').attr('class', 'social_media');
@@ -378,9 +373,9 @@
       }).text('Send with Email'));
       navi.appendTo(new_el);
       new_el.prependTo(container);
-      return new_el.slideToggle('slow');
+      return new_el.slideToggle(time);
     };
-    Coder.prototype.show = function() {};
+    Coder.prototype.decode = function() {};
     Coder.prototype.check = function(key_val, element, char_pos) {
       if ($(element).val().length === 1) {
         return false;
@@ -449,6 +444,10 @@
         return code_focus(decoder, this);
       });
       $('#new_code').submit(function() {
+        coder.code();
+        return false;
+      });
+      $('#new_decode').submit(function() {
         coder.code();
         return false;
       });

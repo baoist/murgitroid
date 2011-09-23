@@ -253,26 +253,19 @@ class Coder
     $.post @form.attr('action') + '.json', data, (data) ->
       return false if data.status == "error"
       self.show_code(self.form.parent(), data.coded.message_coded)
-
       
   show_code: (container, message)->
     self = @
+    time = 'slow'
 
     if $('.coded_message').is('*')
-      $('.coded_message').slideToggle 'slow', ->
+      $('.coded_message').slideToggle time , ->
         $(this).remove()
         self.show_code container, message
       return false
     if $('#code_wheel').is('*')
-      $('#code_wheel').slideToggle 'slow', ->
+      $('#code_wheel').slideToggle time , ->
         $(this).remove()
-
-    $('<div>', {
-      class: 'coded_message'
-      children: $('<h2>', {
-       text: message
-      })
-    }).appendTo(container)
 
     new_el = $('<div>').addClass('coded_message').css 'display', 'none'
     new_el.append('<hgroup>').append('<h2>your message</h2><h1>'+ message + '</h1>')
@@ -280,13 +273,12 @@ class Coder
     navi.append $('<a>').attr({ class: 'facebook', target: 'new', href: 'http://www.facebook.com/share.php?u=http://its-supermurgitroid.com/page/decode&t=Decode My Message on Its-Supermurgitroid' }).text('Post on Facebook')
     navi.append $('<a>').attr({ class: 'twitter', target: 'new', href: 'http://twitter.com/home?status=' + message + ' %23itsSM' }).text('Tweet')
     navi.append $('<a>').attr({ class: 'email', href: 'mailto:' }).text('Send with Email')
-
     navi.appendTo(new_el)
     new_el.prependTo(container)
 
-    new_el.slideToggle 'slow'
+    new_el.slideToggle time
     
-  show: ->
+  decode: ->
     
   check: (key_val, element, char_pos) ->
     return false if $(element).val().length == 1
@@ -340,6 +332,9 @@ jQuery(document).ready ->
     $('#decode form input[type!=submit]').focus -> code_focus(decoder, this)
 
     $('#new_code').submit ->
+      coder.code()
+      false
+    $('#new_decode').submit ->
       coder.code()
       false
 
