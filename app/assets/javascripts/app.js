@@ -374,8 +374,6 @@
     assoc = new Loader("assoc", $('#people').find('img'));
     maps_resize = new Resize($('#maps'), $('#maps').find('img'));
     assoc_resize = new Resize($('#people'), $('#people').find('img'));
-    maps_resize.state();
-    assoc_resize.state();
     $(window).resize(function() {
       maps_resize.state();
       return assoc_resize.state();
@@ -390,9 +388,11 @@
       $('#code form input').focus(function() {
         return code_focus(coder, this);
       });
-      return $('#decode form input').focus(function() {
+      $('#decode form input').focus(function() {
         return code_focus(decoder, this);
       });
     }
+    maps_resize.state();
+    return assoc_resize.state();
   });
 }).call(this);

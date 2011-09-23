@@ -280,9 +280,6 @@ jQuery(document).ready ->
   maps_resize = new Resize($('#maps'), $('#maps').find('img'))
   assoc_resize = new Resize($('#people'), $('#people').find('img'))
 
-  maps_resize.state()
-  assoc_resize.state()
-
   $(window).resize ->
     maps_resize.state()
     assoc_resize.state()
@@ -300,3 +297,6 @@ jQuery(document).ready ->
 
     $('#code form input').focus -> code_focus(coder, this)
     $('#decode form input').focus -> code_focus(decoder, this)
+
+  maps_resize.state()
+  assoc_resize.state()

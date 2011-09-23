@@ -104188,3 +104188,111 @@ Served asset /inner/inside_8.png - 200 OK (0ms)
 
 Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
 Served asset /inner/inside_9.png - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+  Processing by CodesController#index as HTML
+Rendered codes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homepage_logo.png" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /homepage_logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/go_background.png" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /go_background.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home_main_button.png" for 127.0.0.1 at Thu Sep 22 20:27:33 -0500 2011
+Served asset /home_main_button.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Thu Sep 22 20:27:34 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Thu Sep 22 20:27:34 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (10.0ms)
+Rendered codes/page.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Thu Sep 22 20:27:35 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (15.3ms)
+Rendered codes/page.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 42ms (Views: 36.5ms | ActiveRecord: 0.3ms)
