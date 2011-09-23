@@ -103621,3 +103621,570 @@ Served asset /inner/inside_8.png - 200 OK (0ms)
 
 Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Thu Sep 22 20:21:47 -0500 2011
 Served asset /inner/inside_9.png - 200 OK (0ms)
+
+
+Started POST "/encode" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+  Processing by CodesController#encode as HTML
+  Parameters: {"commit"=>"Code Your Message!", "code"=>{"master"=>"1", "key_a"=>"q", "key_b"=>"s", "message"=>"asdasda sda sdasd "}, "authenticity_token"=>"192xTF2Pc1W4LthCfXSD/JLwwFeNB9bftAJ6t5mj69c=", "utf8"=>"✓"}
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "codes" ("created_at", "ip", "key_a", "key_b", "master", "message", "message_coded", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 23 Sep 2011 01:25:29 UTC +00:00], ["ip", "127.0.0.1"], ["key_a", "q"], ["key_b", "s"], ["master", 1], ["message", "asdasda sda sdasd "], ["message_coded", "CQYCQ YCQYC QYCQY"], ["updated_at", Fri, 23 Sep 2011 01:25:29 UTC +00:00]]
+Rendered codes/_code.html.erb (2.2ms)
+Rendered codes/page.html.erb within layouts/application (3.8ms)
+Compiled style.css  (0ms)  (pid 67064)
+Completed 200 OK in 33ms (Views: 18.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /style.css - 200 OK (5ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /raphael.js - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/encode" for 127.0.0.1 at Thu Sep 22 20:25:29 -0500 2011
+  Processing by CodesController#encode as */*
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+  app/controllers/application_controller.rb:30:in `encode_message'
+  app/controllers/codes_controller.rb:27:in `encode'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/encode" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+  Processing by CodesController#encode as */*
+Completed 500 Internal Server Error in 21ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+  app/controllers/application_controller.rb:30:in `encode_message'
+  app/controllers/codes_controller.rb:27:in `encode'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (0ms)
+
+
+Started GET "/encode" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+  Processing by CodesController#encode as */*
+Completed 500 Internal Server Error in 22ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+  app/controllers/application_controller.rb:30:in `encode_message'
+  app/controllers/codes_controller.rb:27:in `encode'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/encode" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+  Processing by CodesController#encode as */*
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+  app/controllers/application_controller.rb:30:in `encode_message'
+  app/controllers/codes_controller.rb:27:in `encode'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Thu Sep 22 20:25:30 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started POST "/encode" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+  Processing by CodesController#encode as HTML
+  Parameters: {"commit"=>"Code Your Message!", "code"=>{"master"=>"1", "key_a"=>"q", "key_b"=>"s", "message"=>"asdasda sda sdasd "}, "authenticity_token"=>"192xTF2Pc1W4LthCfXSD/JLwwFeNB9bftAJ6t5mj69c=", "utf8"=>"✓"}
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "codes" ("created_at", "ip", "key_a", "key_b", "master", "message", "message_coded", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 23 Sep 2011 01:25:31 UTC +00:00], ["ip", "127.0.0.1"], ["key_a", "q"], ["key_b", "s"], ["master", 1], ["message", "asdasda sda sdasd "], ["message_coded", "CQYCQ YCQYC QYCQY"], ["updated_at", Fri, 23 Sep 2011 01:25:31 UTC +00:00]]
+Rendered codes/_code.html.erb (2.5ms)
+Rendered codes/page.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 31ms (Views: 17.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/encode" for 127.0.0.1 at Thu Sep 22 20:25:31 -0500 2011
+  Processing by CodesController#encode as */*
+Completed 500 Internal Server Error in 18ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+  app/controllers/application_controller.rb:30:in `encode_message'
+  app/controllers/codes_controller.rb:27:in `encode'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.1ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/encode" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+  Processing by CodesController#encode as */*
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+  app/controllers/application_controller.rb:30:in `encode_message'
+  app/controllers/codes_controller.rb:27:in `encode'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.8ms)
+
+
+Started POST "/encode" for 127.0.0.1 at Thu Sep 22 20:25:32 -0500 2011
+  Processing by CodesController#encode as HTML
+  Parameters: {"commit"=>"Code Your Message!", "code"=>{"master"=>"1", "key_a"=>"q", "key_b"=>"s", "message"=>"asdasda sda sdasd "}, "authenticity_token"=>"192xTF2Pc1W4LthCfXSD/JLwwFeNB9bftAJ6t5mj69c=", "utf8"=>"✓"}
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "codes" ("created_at", "ip", "key_a", "key_b", "master", "message", "message_coded", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 23 Sep 2011 01:25:32 UTC +00:00], ["ip", "127.0.0.1"], ["key_a", "q"], ["key_b", "s"], ["master", 1], ["message", "asdasda sda sdasd "], ["message_coded", "CQYCQ YCQYC QYCQY"], ["updated_at", Fri, 23 Sep 2011 01:25:32 UTC +00:00]]
+Rendered codes/_code.html.erb (3.3ms)
+Rendered codes/page.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 62ms (Views: 40.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /maps/map-1.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /style.css - 200 OK (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /wheels/1/outer.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /assoc/people-1.png - 200 OK (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /wheels/1/inner.png - 200 OK (0ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /code_o_graph.png - 200 OK (0ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /header_bg.png - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+Served asset /logo.png - 200 OK (0ms)
+
+
+Started GET "/encode" for 127.0.0.1 at Thu Sep 22 20:25:33 -0500 2011
+  Processing by CodesController#encode as */*
+Completed 500 Internal Server Error in 20ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.-):
+  app/controllers/application_controller.rb:30:in `encode_message'
+  app/controllers/codes_controller.rb:27:in `encode'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /maps/map-2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /maps/map-3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /maps/map-7.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /maps/map-4.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /maps/map-6.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /maps/map-5.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /assoc/people-2.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /assoc/people-3.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /assoc/people-4.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /assoc/people-5.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /assoc/people-6.png - 200 OK (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /assoc/people-7.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_2.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_4.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_3.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_5.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_6.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_7.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_8.png - 200 OK (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Thu Sep 22 20:25:34 -0500 2011
+Served asset /inner/inside_9.png - 200 OK (0ms)
