@@ -128,7 +128,7 @@
     };
     Page_Manager.prototype.events = {
       "click nav#main a": "nav",
-      "click .new_code": "nav"
+      "click a.new_code": "nav"
     };
     Page_Manager.prototype.init = function(page) {
       var data, position, start_height, starter, title;
@@ -322,7 +322,15 @@
     Coder.prototype.set_next = function(element) {
       return $(this.fields[this.fields.index($(element)) + 1]).removeClass('unavailable').focus();
     };
-    Coder.prototype.code = function() {};
+    Coder.prototype.code = function() {
+      var data;
+      data = this.form.serializeArray();
+      return $.post(this.form.attr('action') + '.json', data, function(data) {
+        if (data.status === "error") {
+          return false;
+        }
+      });
+    };
     Coder.prototype.show = function() {};
     Coder.prototype.check = function(key_val, element, char_pos) {
       if ($(element).val().length === 1) {
@@ -385,11 +393,15 @@
       decode_wheel = new Wheel($('#decode_wheel'), inner);
       coder = new Coder($('#code form'), code_wheel, 'code');
       decoder = new Coder($('#decode form'), decode_wheel, 'decode');
-      $('#code form input').focus(function() {
+      $('#code form input[type!=submit]').focus(function() {
         return code_focus(coder, this);
       });
-      $('#decode form input').focus(function() {
+      $('#decode form input[type!=submit]').focus(function() {
         return code_focus(decoder, this);
+      });
+      $('#new_code').submit(function() {
+        coder.code();
+        return false;
       });
     }
     maps_resize.state();

@@ -84,7 +84,7 @@ class Page_Manager extends Backbone.View
   
   events: {
     "click nav#main a" : "nav",
-    "click .new_code" : "nav"
+    "click a.new_code" : "nav"
   }
   
   init: (page) ->
@@ -244,6 +244,10 @@ class Coder
       .focus()
 
   code: ->
+    data = @form.serializeArray()
+    $.post @form.attr('action') + '.json', data, (data) ->
+      return false if data.status == "error"
+      
     
   show: ->
     
@@ -295,8 +299,12 @@ jQuery(document).ready ->
     coder = new Coder($('#code form'), code_wheel, 'code')
     decoder = new Coder($('#decode form'), decode_wheel, 'decode')
 
-    $('#code form input').focus -> code_focus(coder, this)
-    $('#decode form input').focus -> code_focus(decoder, this)
+    $('#code form input[type!=submit]').focus -> code_focus(coder, this)
+    $('#decode form input[type!=submit]').focus -> code_focus(decoder, this)
+
+    $('#new_code').submit ->
+      coder.code()
+      false
 
   maps_resize.state()
   assoc_resize.state()
