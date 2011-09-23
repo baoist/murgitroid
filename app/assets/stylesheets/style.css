@@ -78,11 +78,11 @@ h1, h2, h3, h4, h5, h6, a, p, input, textarea, label, div, section, article, foo
   font-weight: normal;
 }
 
-hgroup h2, #code form, input, .coded_message h1, .coded_message h2, .coded_message .social_media a, #decode form, .coded_message a.new_code {
+hgroup h2, #code form, input, .coded_message h1, .coded_message h2, .coded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1 {
   font-family: "League Gothic";
 }
 
-body, textarea {
+body, textarea, #faqs li {
   font-family: "Junction regular";
 }
 
@@ -394,3 +394,49 @@ body #wrapper form .submit_area label {
   margin: 70px 300px 0 379px;
 }
 
+#terms, #about, #faqs {
+  background-color:rgba(255,248,228,0.5);
+  padding: 10px 20px;
+  width: 920px;
+  color: #000;
+  margin-bottom: 20px;
+  height: auto !important;
+}
+
+#about h1, #faqs h1 {
+  width: 100%;
+  color: #257182;
+}
+
+#about h3 {
+  width: 100%;
+}
+
+#terms article, #about article, #faqs article {
+  float: left;
+  width: 385px;
+  margin-right: 20px;
+}
+
+#terms article ul, #about article ul, #faqs article ul {
+  float: left;
+  width: 100%;
+  padding-left: 0;
+}
+
+#terms article li, #about article li, #faqs article li {
+  float: left;
+  width: 100%;
+  font-size: 20px; 
+  list-style: none;
+}
+
+#terms article p, #about article p, #faqs article p {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+#faqs ul li {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
