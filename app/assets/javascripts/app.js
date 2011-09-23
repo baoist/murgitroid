@@ -341,6 +341,7 @@
       var navi, new_el, self, time;
       self = this;
       time = 'slow';
+      container.height('auto');
       if ($('.coded_message').is('*')) {
         $('.coded_message').slideToggle(time, function() {
           $(this).remove();
@@ -368,7 +369,7 @@
       }).text('Tweet'));
       navi.append($('<a>').attr({
         "class": 'email',
-        href: 'mailto:'
+        href: "mailto:?subject=Decode My Message on its-supermurgitoird.com&body=" + message
       }).text('Send with Email'));
       navi.appendTo(new_el);
       new_el.prependTo(container);
