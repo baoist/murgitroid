@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   def files_from_dir(directory)
     files = Dir.glob(directory) # gets all files given a directory in /images/
     files.each_with_index do |file, index| files[index] = file.gsub('app/assets/images', '/assets') end
-    return files
+    return files.sort
   end
 
   def page_images(url) # for maps and people on load
