@@ -104483,3 +104483,170 @@ Served asset /assoc/people-2.png - 304 Not Modified (0ms)
 
 Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Thu Sep 22 20:32:10 -0500 2011
 Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Fri Sep 23 05:06:34 -0500 2011
+  Processing by CodesController#page as HTML
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (16.7ms)
+Rendered codes/page.html.erb within layouts/application (19.0ms)
+Compiled app.js  (1ms)  (pid 67064)
+Completed 200 OK in 323ms (Views: 320.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at Fri Sep 23 05:06:34 -0500 2011
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Sep 23 05:06:34 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-1.jpg" for 127.0.0.1 at Fri Sep 23 05:06:34 -0500 2011
+Served asset /maps/map-1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-1.png" for 127.0.0.1 at Fri Sep 23 05:06:34 -0500 2011
+Served asset /assoc/people-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/outer.png" for 127.0.0.1 at Fri Sep 23 05:06:34 -0500 2011
+Served asset /wheels/1/outer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wheels/1/inner.png" for 127.0.0.1 at Fri Sep 23 05:06:34 -0500 2011
+Served asset /wheels/1/inner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at Fri Sep 23 05:06:35 -0500 2011
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at Fri Sep 23 05:06:35 -0500 2011
+Served asset /app.js - 200 OK (83ms)
+
+
+Started GET "/assets/header_bg.png" for 127.0.0.1 at Fri Sep 23 05:06:35 -0500 2011
+Served asset /header_bg.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/raphael.js?body=1" for 127.0.0.1 at Fri Sep 23 05:06:35 -0500 2011
+Served asset /raphael.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at Fri Sep 23 05:06:35 -0500 2011
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at Fri Sep 23 05:06:35 -0500 2011
+Served asset /backbone.js - 304 Not Modified (2ms)
+
+
+Started GET "/retrieve/maps.json" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"maps"}
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/assoc.json" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"assoc"}
+Completed 200 OK in 17ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/retrieve/inner.json" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+  Processing by CodesController#retrieve as JSON
+  Parameters: {"directory"=>"inner"}
+Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/page/code" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+  Processing by CodesController#page as */*
+  Parameters: {"current_page"=>"code"}
+Rendered codes/_code.html.erb (38.4ms)
+Rendered codes/page.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 75ms (Views: 69.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/code_o_graph.png" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+Served asset /code_o_graph.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/maps/map-2.jpg" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+Served asset /maps/map-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_4.png" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+Served asset /inner/inside_4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_2.png" for 127.0.0.1 at Fri Sep 23 05:06:36 -0500 2011
+Served asset /inner/inside_2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_6.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /inner/inside_6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_5.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /inner/inside_5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_3.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /inner/inside_3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_7.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /inner/inside_7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_8.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /inner/inside_8.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/inner/inside_9.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /inner/inside_9.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-3.jpg" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /maps/map-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-4.jpg" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /maps/map-4.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-5.jpg" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /maps/map-5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-6.jpg" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /maps/map-6.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/maps/map-7.jpg" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /maps/map-7.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-2.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /assoc/people-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-3.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /assoc/people-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-4.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /assoc/people-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-5.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /assoc/people-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-6.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /assoc/people-6.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/assoc/people-7.png" for 127.0.0.1 at Fri Sep 23 05:06:37 -0500 2011
+Served asset /assoc/people-7.png - 304 Not Modified (1ms)
