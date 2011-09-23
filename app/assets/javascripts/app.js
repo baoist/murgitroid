@@ -224,7 +224,7 @@
       this.trans_content.swap(page.get('content'), {
         'margin-top': $('html, body').height()
       });
-      content_height = page.get('content').height() > $(window).height() - page.get('content').offset().top ? page.get('content').height() : $(window).height() - page.get('content').offset().top;
+      content_height = page.get('content').height() > ($(window).height() - $('#main_content').offset().top) ? page.get('content').height() : $(window).height() - $('#main_content').offset().top - 50;
       return this.main.height(content_height);
     };
     return Page_Manager;
