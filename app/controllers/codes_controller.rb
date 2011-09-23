@@ -33,7 +33,7 @@ class CodesController < ApplicationController
     respond_to do |format|
       if @message.message_coded
         format.html { render :action => "page", :current_page => @message }
-        format.json { render :json => { :coded => "foo"} }
+        format.json { render :json => { :status => "success", :coded => @message } }
       else
         format.html { redirect_to page_url + "/code" }
         format.json { render :json => { :status => "error" } }

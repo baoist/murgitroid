@@ -307,6 +307,7 @@
       this.key_a;
       this.key_b;
       this.disallow();
+      this.message = '';
     }
     Coder.prototype.disallow = function() {
       this.fields = this.form.find('input[type=text], textarea');
@@ -323,13 +324,61 @@
       return $(this.fields[this.fields.index($(element)) + 1]).removeClass('unavailable').focus();
     };
     Coder.prototype.code = function() {
-      var data;
+      var data, self;
       data = this.form.serializeArray();
+      self = this;
+      if (this.message === data[data.length - 1].value) {
+        return false;
+      }
+      this.message = data[data.length - 1].value;
       return $.post(this.form.attr('action') + '.json', data, function(data) {
         if (data.status === "error") {
           return false;
         }
+        return self.show_code(self.form.parent(), data.coded.message_coded);
       });
+    };
+    Coder.prototype.show_code = function(container, message) {
+      var navi, new_el, self;
+      self = this;
+      if ($('.coded_message').is('*')) {
+        $('.coded_message').slideToggle('slow', function() {
+          $(this).remove();
+          return self.show_code(container, message);
+        });
+        return false;
+      }
+      if ($('#code_wheel').is('*')) {
+        $('#code_wheel').slideToggle('slow', function() {
+          return $(this).remove();
+        });
+      }
+      $('<div>', {
+        "class": 'coded_message',
+        children: $('<h2>', {
+          text: message
+        })
+      }).appendTo(container);
+      new_el = $('<div>').addClass('coded_message').css('display', 'none');
+      new_el.append('<hgroup>').append('<h2>your message</h2><h1>' + message + '</h1>');
+      navi = $('<nav>').attr('class', 'social_media');
+      navi.append($('<a>').attr({
+        "class": 'facebook',
+        target: 'new',
+        href: 'http://www.facebook.com/share.php?u=http://its-supermurgitroid.com/page/decode&t=Decode My Message on Its-Supermurgitroid'
+      }).text('Post on Facebook'));
+      navi.append($('<a>').attr({
+        "class": 'twitter',
+        target: 'new',
+        href: 'http://twitter.com/home?status=' + message + ' %23itsSM'
+      }).text('Tweet'));
+      navi.append($('<a>').attr({
+        "class": 'email',
+        href: 'mailto:'
+      }).text('Send with Email'));
+      navi.appendTo(new_el);
+      new_el.prependTo(container);
+      return new_el.slideToggle('slow');
     };
     Coder.prototype.show = function() {};
     Coder.prototype.check = function(key_val, element, char_pos) {

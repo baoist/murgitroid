@@ -227,6 +227,7 @@ class Coder
     @key_a
     @key_b
     @disallow()
+    @message = ''
 
   disallow: ->
     @fields = @form.find('input[type=text], textarea')
@@ -245,9 +246,45 @@ class Coder
 
   code: ->
     data = @form.serializeArray()
+    self = @
+    return false if @message == data[data.length - 1].value
+    @message = data[data.length - 1].value
+
     $.post @form.attr('action') + '.json', data, (data) ->
       return false if data.status == "error"
+      self.show_code(self.form.parent(), data.coded.message_coded)
+
       
+  show_code: (container, message)->
+    self = @
+
+    if $('.coded_message').is('*')
+      $('.coded_message').slideToggle 'slow', ->
+        $(this).remove()
+        self.show_code container, message
+      return false
+    if $('#code_wheel').is('*')
+      $('#code_wheel').slideToggle 'slow', ->
+        $(this).remove()
+
+    $('<div>', {
+      class: 'coded_message'
+      children: $('<h2>', {
+       text: message
+      })
+    }).appendTo(container)
+
+    new_el = $('<div>').addClass('coded_message').css 'display', 'none'
+    new_el.append('<hgroup>').append('<h2>your message</h2><h1>'+ message + '</h1>')
+    navi = $('<nav>').attr('class', 'social_media')
+    navi.append $('<a>').attr({ class: 'facebook', target: 'new', href: 'http://www.facebook.com/share.php?u=http://its-supermurgitroid.com/page/decode&t=Decode My Message on Its-Supermurgitroid' }).text('Post on Facebook')
+    navi.append $('<a>').attr({ class: 'twitter', target: 'new', href: 'http://twitter.com/home?status=' + message + ' %23itsSM' }).text('Tweet')
+    navi.append $('<a>').attr({ class: 'email', href: 'mailto:' }).text('Send with Email')
+
+    navi.appendTo(new_el)
+    new_el.prependTo(container)
+
+    new_el.slideToggle 'slow'
     
   show: ->
     

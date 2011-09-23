@@ -358,9 +358,10 @@ body #wrapper form .submit_area label {
 #code_wheel, #decode_wheel {
   display: block;
   width: 565px;
-  height: 395px;
+  height: 355px;
   background: url(/assets/code_o_graph.png) no-repeat bottom left;
   margin: 5px 0 20px 285px;
+  padding-bottom: 40px;
 }
 
 #code_wheel img, #decode_wheel img {
