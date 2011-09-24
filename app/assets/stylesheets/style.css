@@ -5,7 +5,8 @@
 @font-face {
   font-family: 'junctionregularRegular';
   src: url('/fonts/junction-webfont.eot');
-  src: url('/fonts/junction-webfont.eot?#iefix') format('embedded-opentype'),
+  src: local('☺'),
+       url('/fonts/junction-webfont.eot?#iefix') format('embedded-opentype'),
        url('/fonts/junction-webfont.woff') format('woff'),
        url('/fonts/junction-webfont.ttf') format('truetype'),
        url('/fonts/junction-webfont.svg#junctionregularRegular') format('svg');
@@ -16,7 +17,8 @@
 @font-face {
   font-family: 'LeagueGothicRegular';
   src: url('/fonts/league_gothic-webfont.eot');
-  src: url('/fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+  src: local('☺'),
+       url('/fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
        url('/fonts/league_gothic-webfont.woff') format('woff'),
        url('/fonts/league_gothic-webfont.ttf') format('truetype'),
        url('/fonts/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
@@ -78,12 +80,12 @@ h1, h2, h3, h4, h5, h6, a, p, input, textarea, label, div, section, article, foo
   font-weight: normal;
 }
 
-hgroup h2, #code form, input, .coded_message h1, .coded_message h2, .coded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1 {
-  font-family: "League Gothic";
+hgroup h2, #code form, input, .coded_message h1, .coded_message h2, .coded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span {
+  font-family: "League Gothic", sans-serif;
 }
 
 body, textarea, #faqs li {
-  font-family: "Junction regular";
+  font-family: "Junction regular", serif;
 }
 
 .coded_message, .coded_message h1, .coded_message h2, .coded_message .social_media, #wrapper, nav#home, #code form, #decode form, header {
@@ -394,7 +396,7 @@ body #wrapper form .submit_area label {
   margin: 70px 300px 0 379px;
 }
 
-#terms, #about, #faqs {
+#terms, #about, #faqs, #contact {
   background-color:rgba(255,248,228,0.5);
   padding: 10px 20px;
   width: 920px;
@@ -403,9 +405,14 @@ body #wrapper form .submit_area label {
   height: auto !important;
 }
 
-#about h1, #faqs h1 {
+#about h1, #faqs h1, #contact h1 {
   width: 100%;
   color: #257182;
+  font-size: 42px;
+}
+
+#contact h1 { 
+  color: #fff;
 }
 
 #about h3 {
@@ -439,4 +446,82 @@ body #wrapper form .submit_area label {
 #faqs ul li {
   font-size: 15px;
   margin-bottom: 15px;
+}
+
+#contact {
+  background: none;
+}
+
+#contact form {
+  width: 470px;
+}
+
+#contact h1 {
+  text-transform: uppercase;
+}
+
+#contact form input, #contact form label, #contact form textarea {
+  font-size: 24px;
+  line-height: 15px;
+  width: 96%;
+  padding: 0 8px;
+  margin-left: 0;
+  color: #fff;
+}
+
+#contact form label {
+  margin-top: 6px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#contact form input {
+  border: none;
+  border-bottom: 1px dashed #fff;
+}
+
+#contact form textarea {
+  font-size: 15px;
+  font-family: verdana, helvetica, sans-serif;
+  margin-top: 15px;
+  padding: 5px 8px;
+  line-height: 21px;
+  border: 1px dashed #fff;
+  height: 145px;
+}
+
+#contact p a, #contact p span {
+  float: none;
+  color: #fff;
+}
+
+#contact p a {
+  text-decoration: underline;
+}
+
+#contact p span {
+  font-size: 24px;
+}
+
+#contact p {
+  color: #fff;
+  padding: 0 2%;
+}
+
+#contact form input#captcha {
+  width: 170px;
+  font-size: 28px;
+}
+
+#contact form input#contact_submit {
+  width: 180px;
+  float: right;
+  border: none;
+  font-size: 28px;
+  background: #257182;
+  cursor: pointer !important;
+  vertical-align: middle;
+  height: 35px;
+  line-height: 38px;
 }

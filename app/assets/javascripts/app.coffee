@@ -85,6 +85,7 @@ class Page_Manager extends Backbone.View
   events: {
     "click nav#main a" : "nav",
     "click a.new_code" : "nav"
+    "click a.new_decode" : "nav"
   }
   
   init: (page) ->
