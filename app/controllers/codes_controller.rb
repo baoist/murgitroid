@@ -67,7 +67,7 @@ class CodesController < ApplicationController
   def contact
     @contact = Contact.new(params[:contact])
 
-    if @contact.captcha.gsub(/[^0-9A-Za-z]/, '').capitalize
+    if @contact.captcha.gsub(/[^0-9A-Za-z]/, '').capitalize == 'OVALTINE'
       @contact.save
 
       ContactMailer.user_email("iam@brad.io").deliver

@@ -304,6 +304,22 @@ class Coder
       return true
     false
 
+class Contact
+  constructor: (form) ->
+    @form = form
+    
+  send: ->
+    self = @
+    data = serializeArray(@form)
+    $.post @form.attr('action'), data, (data) ->
+      return false if data.status == 'error'
+
+      self.clear()
+
+  clear: ->
+    @form.find('input[type=text], textarea').val()
+
+
 code_focus = (obj, ele) ->
   return false if !obj.allowed(ele)
   acceptable = false
@@ -337,6 +353,8 @@ jQuery(document).ready ->
     coder = new Coder($('#code form'), code_wheel, 'code')
     decoder = new Coder($('#decode form'), decode_wheel, 'decode')
 
+    contact = new Contact($('#new_contact'))
+
     $('#code form input[type!=submit]').focus -> code_focus(coder, this)
     $('#decode form input[type!=submit]').focus -> code_focus(decoder, this)
 
@@ -345,6 +363,10 @@ jQuery(document).ready ->
       false
     $('#new_decode').submit ->
       decoder.decode()
+      false
+
+    $('#new_contact').submit ->
+      contact.send()
       false
 
   maps_resize.state()

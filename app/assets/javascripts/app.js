@@ -1,5 +1,5 @@
 (function() {
-  var Coder, Loader, Page, Page_Manager, Pages, Resize, Transitioner, Wheel, code_focus;
+  var Coder, Contact, Loader, Page, Page_Manager, Pages, Resize, Transitioner, Wheel, code_focus;
   var __hasProp = Object.prototype.hasOwnProperty, __extends = function(child, parent) {
     for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; }
     function ctor() { this.constructor = child; }
@@ -416,6 +416,26 @@
     };
     return Coder;
   })();
+  Contact = (function() {
+    function Contact(form) {
+      this.form = form;
+    }
+    Contact.prototype.send = function() {
+      var data, self;
+      self = this;
+      data = serializeArray(this.form);
+      return $.post(this.form.attr('action'), data, function(data) {
+        if (data.status === 'error') {
+          return false;
+        }
+        return self.clear();
+      });
+    };
+    Contact.prototype.clear = function() {
+      return this.form.find('input[type=text], textarea').val();
+    };
+    return Contact;
+  })();
   code_focus = function(obj, ele) {
     var acceptable;
     if (!obj.allowed(ele)) {
@@ -433,7 +453,7 @@
     });
   };
   jQuery(document).ready(function() {
-    var assoc, assoc_resize, code_wheel, coder, decode_wheel, decoder, inner, maps, maps_resize, pages;
+    var assoc, assoc_resize, code_wheel, coder, contact, decode_wheel, decoder, inner, maps, maps_resize, pages;
     maps = new Loader("maps", $('#maps').find('img'));
     assoc = new Loader("assoc", $('#people').find('img'));
     maps_resize = new Resize($('#maps'), $('#maps').find('img'));
@@ -449,6 +469,7 @@
       decode_wheel = new Wheel($('#decode_wheel'), inner);
       coder = new Coder($('#code form'), code_wheel, 'code');
       decoder = new Coder($('#decode form'), decode_wheel, 'decode');
+      contact = new Contact($('#new_contact'));
       $('#code form input[type!=submit]').focus(function() {
         return code_focus(coder, this);
       });
@@ -461,6 +482,10 @@
       });
       $('#new_decode').submit(function() {
         decoder.decode();
+        return false;
+      });
+      $('#new_contact').submit(function() {
+        contact.send();
         return false;
       });
     }
