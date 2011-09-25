@@ -1,6 +1,6 @@
 ActionMailer::Base.smtp_settings = {
   :user_name => "baoist",
-  :password => "02062591",
+  :password => "020625",
   :domain => "murgitroid.heroku.com",
   :address => "smtp.sendgrid.net",
   :port => 587,
