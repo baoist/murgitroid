@@ -4,24 +4,24 @@
 
 @font-face {
   font-family: 'junctionregularRegular';
-  src: url('/fonts/junction-webfont.eot');
+  src: url('/public/fonts/junction-webfont.eot');
   src: local('☺'),
-       url('/fonts/junction-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/junction-webfont.woff') format('woff'),
-       url('/fonts/junction-webfont.ttf') format('truetype'),
-       url('/fonts/junction-webfont.svg#junctionregularRegular') format('svg');
+       url('/public/fonts/junction-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/public/fonts/junction-webfont.woff') format('woff'),
+       url('/public/fonts/junction-webfont.ttf') format('truetype'),
+       url('/public/fonts/junction-webfont.svg#junctionregularRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LeagueGothicRegular';
-  src: url('/fonts/league_gothic-webfont.eot');
+  src: url('/public/fonts/league_gothic-webfont.eot');
   src: local('☺'),
-       url('/fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/league_gothic-webfont.woff') format('woff'),
-       url('/fonts/league_gothic-webfont.ttf') format('truetype'),
-       url('/fonts/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+       url('/public/fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/public/fonts/league_gothic-webfont.woff') format('woff'),
+       url('/public/fonts/league_gothic-webfont.ttf') format('truetype'),
+       url('/public/fonts/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
