@@ -81,11 +81,11 @@ h1, h2, h3, h4, h5, h6, a, p, input, textarea, label, div, section, article, foo
 }
 
 hgroup h2, #code form, input, .coded_message h1, .coded_message h2, .coded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span {
-  font-family: "League Gothic", sans-serif;
+  font-family: "League Gothic", "LeagueGothicRegular", sans-serif;
 }
 
 body, textarea, #faqs li {
-  font-family: "Junction regular", serif;
+  font-family: "Junction regular", "junctionregularRegular", serif;
 }
 
 .coded_message, .coded_message h1, .coded_message h2, .coded_message .social_media, #wrapper, nav#home, #code form, #decode form, header {
