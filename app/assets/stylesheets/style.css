@@ -525,3 +525,14 @@ body #wrapper form .submit_area label {
   height: 35px;
   line-height: 38px;
 }
+
+body #contact form p.error {
+  color: #DD4033;
+}
+body #contact form p.success {
+  color: #89D357;
+}
+
+.contact_response {
+  display: none;
+}

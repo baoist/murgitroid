@@ -307,18 +307,38 @@ class Coder
 class Contact
   constructor: (form) ->
     @form = form
+    @status = true
     
   send: ->
+    return false if @status == false
+    @status = false
     self = @
-    data = serializeArray(@form)
-    $.post @form.attr('action'), data, (data) ->
-      return false if data.status == 'error'
 
+    data = @form.serializeArray()
+    $.post @form.attr('action') + '.json', data, (data) ->
+      console.log data
+      self.status = true
+      if data.status == 'error'
+        self.message('error', 'Please decode the message and place it in the captcha field.')
+        return false
+      self.form.find('#captcha').removeClass('error')
       self.clear()
+      self.message('success', 'Thank you for contacting headquarters.')
 
   clear: ->
-    @form.find('input[type=text], textarea').val()
+    @form.find('input[type=text], textarea').val('')
 
+  message: (status, message)->
+    time = 650
+    self = @
+    return false if $('.contact_response').find('p').attr('class') == status
+    if $('.contact_response').is('*')
+      $('.contact_response').slideToggle time, ->
+        $(this).remove()
+        self.message status, message
+      return false
+    @form.append $('<div class="contact_response"><p class="' + status + '">' + message + '</p></div>')
+    @form.find('.contact_response').slideToggle time
 
 code_focus = (obj, ele) ->
   return false if !obj.allowed(ele)

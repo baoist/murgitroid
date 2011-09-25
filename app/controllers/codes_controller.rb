@@ -67,10 +67,10 @@ class CodesController < ApplicationController
   def contact
     @contact = Contact.new(params[:contact])
 
-    if @contact.captcha.gsub(/[^0-9A-Za-z]/, '').capitalize == 'OVALTINE'
+    if @contact.captcha.gsub(/[^0-9A-Za-z]/, '').capitalize == "Ovaltine"
       @contact.save
 
-      ContactMailer.user_email("iam@brad.io").deliver
+      #ContactMailer.user_email("iam@brad.io").deliver
 
       respond_to do |format|
         format.html { redirect_to(page_url + "#contact") }

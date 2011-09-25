@@ -419,20 +419,47 @@
   Contact = (function() {
     function Contact(form) {
       this.form = form;
+      this.status = true;
     }
     Contact.prototype.send = function() {
       var data, self;
+      if (this.status === false) {
+        return false;
+      }
+      this.status = false;
       self = this;
-      data = serializeArray(this.form);
-      return $.post(this.form.attr('action'), data, function(data) {
+      data = this.form.serializeArray();
+      return $.post(this.form.attr('action') + '.json', data, function(data) {
+        console.log(data);
+        self.status = true;
         if (data.status === 'error') {
+          self.message('error', 'Please decode the message and place it in the captcha field.');
           return false;
         }
-        return self.clear();
+        self.form.find('#captcha').removeClass('error');
+        self.clear();
+        return self.message('success', 'Thank you for contacting headquarters.');
       });
     };
     Contact.prototype.clear = function() {
-      return this.form.find('input[type=text], textarea').val();
+      return this.form.find('input[type=text], textarea').val('');
+    };
+    Contact.prototype.message = function(status, message) {
+      var self, time;
+      time = 650;
+      self = this;
+      if ($('.contact_response').find('p').attr('class') === status) {
+        return false;
+      }
+      if ($('.contact_response').is('*')) {
+        $('.contact_response').slideToggle(time, function() {
+          $(this).remove();
+          return self.message(status, message);
+        });
+        return false;
+      }
+      this.form.append($('<div class="contact_response"><p class="' + status + '">' + message + '</p></div>'));
+      return this.form.find('.contact_response').slideToggle(time);
     };
     return Contact;
   })();
