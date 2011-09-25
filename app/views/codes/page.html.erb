@@ -118,15 +118,5 @@
 </section>
 <section id="contact">
   <h1>Contact Us</h1>
-  <form action="/contact" method="post">
-    <input type="text" name="name" id="name">
-    <label for="name">YOUR NAME</label>
-    <input type="text" name="email" id="email">
-    <label for="email">YOUR EMAIL</label>
-    <textarea id="message" name="contact_message"></textarea>
-    <label for="contact_message">YOUR MESSAGE</label>
-    <p>Please <a href="#decode" class="new_decode">decode</a> the message <span>EXG7FVYH</span> using the master code <span>1</span> and the key <span>S=M</span> and put it in the input field.</p>
-    <input type="text" name="captcha" id="captcha">
-    <input type="submit" value="Send Your Message" id="contact_submit">
-  </form>
+  <%= render 'contact' %>
 </section>

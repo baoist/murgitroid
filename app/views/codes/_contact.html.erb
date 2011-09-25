@@ -1,0 +1,11 @@
+<%= form_for(@contact, :url => contact_url) do |f| %>
+  <%= f.text_field :name %>
+  <%= f.label :name, raw("YOUR NAME") %>
+  <%= f.text_field :email %>
+  <%= f.label :email, raw("YOUR EMAIL") %>
+  <%= f.text_area :message %>
+  <%= f.label :message, raw("YOUR MESSAGE") %>
+  <p>Please <a href="#decode" class="new_decode">decode</a> the message <span>EXG7FVYH</span> using the master code <span>1</span> and the key <span>S=M</span> and put it in the input field.</p>
+  <%= f.text_field :captcha, :id => "captcha" %>
+  <%= f.submit "Send Your Message", :id => "contact_submit" %>
+<% end %>

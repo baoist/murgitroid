@@ -15,7 +15,6 @@ class CodesController < ApplicationController
   def page
     @code = Code.new
     @message = params[:message]
-    puts @message
 
     respond_to do |format|
       format.html # page.html.erb
@@ -63,6 +62,28 @@ class CodesController < ApplicationController
     respond_to do |format|
       format.json { render :json => @files }
     end
+  end
+
+  def contact
+    @contact = Contact.new(params[:contact])
+
+    if @contact.captcha.gsub(/[^0-9A-Za-z]/, '').capitalize
+      @contact.save
+
+      ContactMailer.user_email("iam@brad.io").deliver
+
+      respond_to do |format|
+        format.html { redirect_to(page_url + "#contact") }
+        format.json { render :json => { :status => "success" } }
+      end
+    else
+      respond_to do |format|
+        format.html { redirect_to(page_url + "#contact") }
+        format.json { render :json => { :status => "error" } }
+      end
+    end
+    #ContactMailer.send_user().deliver
+    #ContactMailer.send_admin("iam@brad.io").deliver
   end
 
 =begin

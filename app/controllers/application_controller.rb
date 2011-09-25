@@ -1,6 +1,12 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
+  def start_contact
+    @contact = Contact.new
+  end
+
+  before_filter :start_contact
+
   def files_from_dir(directory)
     files = Dir.glob(directory) # gets all files given a directory in /images/
     files.each_with_index do |file, index| files[index] = file.gsub('app/assets/images', '/assets') end
