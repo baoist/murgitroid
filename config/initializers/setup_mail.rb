@@ -1,5 +1,5 @@
 ActionMailer::Base.smtp_settings = {
-  :address          => "mail.its-supermurgitroid.com",
+  :address          => "box678.bluehost.com",
   :port             => 465,
   :domain           => "its-supermurgitroid.com",
   :user_name        => "keen@its-supermurgitroid.com",
