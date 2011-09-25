@@ -343,8 +343,8 @@
       self = this;
       time = 'slow';
       container.height('auto');
-      if ($('.coded_message').is('*')) {
-        $('.coded_message').slideToggle(time, function() {
+      if ($('.encoded_message').is('*')) {
+        $('.encoded_message').slideToggle(time, function() {
           $(this).remove();
           return self.show_code(container, message);
         });
@@ -355,7 +355,7 @@
           return $(this).remove();
         });
       }
-      new_el = $('<div>').addClass('coded_message').css('display', 'none');
+      new_el = $('<div>').addClass('encoded_message').css('display', 'none');
       new_el.append('<hgroup>').append('<h2>your message</h2><h1>' + message + '</h1>');
       navi = $('<nav>').attr('class', 'social_media');
       navi.append($('<a>').attr({
@@ -389,6 +389,9 @@
       });
     };
     Coder.prototype.check = function(key_val, element, char_pos) {
+      if ($(element).is('textarea')) {
+        return true;
+      }
       if ($(element).val().length === 1) {
         return false;
       }
@@ -497,10 +500,10 @@
       coder = new Coder($('#code form'), code_wheel, 'code');
       decoder = new Coder($('#decode form'), decode_wheel, 'decode');
       contact = new Contact($('#new_contact'));
-      $('#code form input[type!=submit]').focus(function() {
+      $('#code form input[type!=submit], #code form textarea').focus(function() {
         return code_focus(coder, this);
       });
-      $('#decode form input[type!=submit]').focus(function() {
+      $('#decode form input[type!=submit], #code form textarea').focus(function() {
         return code_focus(decoder, this);
       });
       $('#new_code').submit(function() {

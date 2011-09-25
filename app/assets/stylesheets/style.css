@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, a, p, input, textarea, label, div, section, article, foo
   font-weight: normal;
 }
 
-hgroup h2, #code form, input, .coded_message h1, .coded_message h2, .coded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span {
+hgroup h2, #code form, input, .encoded_message h1, .coded_message h1, .encoded_message h2, coded_message h2, .encoded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span {
   font-family: "League Gothic", "LeagueGothicRegular", sans-serif;
 }
 
@@ -88,7 +88,7 @@ body, textarea, #faqs li {
   font-family: "Junction regular", "junctionregularRegular", serif;
 }
 
-.coded_message, .coded_message h1, .coded_message h2, .coded_message .social_media, #wrapper, nav#home, #code form, #decode form, header {
+.encoded_message, .encoded_message h1, .coded_message, .coded_message h1, .coded_message h2, .encoded_message h2, .encoded_message .social_media, #wrapper, nav#home, #code form, #decode form, header {
   width: 920px;
 }
 
@@ -322,26 +322,26 @@ body #wrapper form .submit_area label {
   cursor: pointer;
 }
 
-.coded_message h1, .coded_message h2 {
+.encoded_message h1, .encoded_message h2, .coded_message h1, .coded_message h2 {
   text-align: center;
   width: 500px;
   padding: 0 200px;
 }
 
-.coded_message h2, .coded_message .social_media a {
+.encoded_message h2, .encoded_message .social_media a, .coded_message h2 {
   color: #F9F5C7;
 }
 
-.coded_message h1 {
+.encoded_message h1, .coded_message h1 {
   font-size: 50px;
   margin: 0;
 }
 
-.coded_message .social_media {
+.encoded_message .social_media {
   margin: 180px 0 80px 0;
 }
 
-.coded_message .social_media a {
+.encoded_message .social_media a {
   background: #2D1406;
   font-size: 40px;
   padding: 4px 8px;
@@ -349,11 +349,11 @@ body #wrapper form .submit_area label {
   line-height: 50px;
 }
 
-.coded_message .social_media a.email {
+.encoded_message .social_media a.email {
   float: right;
 }
 
-.coded_message .social_media a.twitter {
+.encoded_message .social_media a.twitter {
   margin: 0 0 0 223px;
 }
 

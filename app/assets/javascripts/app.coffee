@@ -260,8 +260,8 @@ class Coder
 
     container.height('auto')
 
-    if $('.coded_message').is('*')
-      $('.coded_message').slideToggle time , ->
+    if $('.encoded_message').is('*')
+      $('.encoded_message').slideToggle time , ->
         $(this).remove()
         self.show_code container, message
       return false
@@ -269,7 +269,7 @@ class Coder
       $('#code_wheel').slideToggle time , ->
         $(this).remove()
 
-    new_el = $('<div>').addClass('coded_message').css 'display', 'none'
+    new_el = $('<div>').addClass('encoded_message').css 'display', 'none'
     new_el.append('<hgroup>').append('<h2>your message</h2><h1>'+ message + '</h1>')
     navi = $('<nav>').attr('class', 'social_media')
     navi.append $('<a>').attr({ class: 'facebook', target: 'new', href: 'http://www.facebook.com/share.php?u=http://its-supermurgitroid.com/page/decode&t=Decode My Message on Its-Supermurgitroid' }).text('Post on Facebook')
@@ -290,6 +290,7 @@ class Coder
       $('#decoded_link').click()
     
   check: (key_val, element, char_pos) ->
+    return true if $(element).is('textarea')
     return false if $(element).val().length == 1
     if $(element).attr('id') == @code_type + '_master' # master key
       if key_val > 0 and key_val < 10
@@ -375,8 +376,8 @@ jQuery(document).ready ->
 
     contact = new Contact($('#new_contact'))
 
-    $('#code form input[type!=submit]').focus -> code_focus(coder, this)
-    $('#decode form input[type!=submit]').focus -> code_focus(decoder, this)
+    $('#code form input[type!=submit], #code form textarea').focus -> code_focus(coder, this)
+    $('#decode form input[type!=submit], #code form textarea').focus -> code_focus(decoder, this)
 
     $('#new_code').submit ->
       coder.code()
