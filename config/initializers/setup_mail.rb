@@ -1,10 +1,10 @@
 ActionMailer::Base.smtp_settings = {
-  :address          => "box678.bluehost.com",
-  :port             => 465,
-  :domain           => "its-supermurgitroid.com",
-  :user_name        => "keen",
-  :password         => "sw33t711!!",
-  :authentication   => "plain",
+  :user_name => "baoist",
+  :password => "02062591",
+  :domain => "murgitroid.heroku.com",
+  :address => "smtp.sendgrid.net",
+  :port => 587,
+  :authentication => :plain,
   :enable_starttls_auto => true
 }
 
