@@ -1,6 +1,6 @@
 ActionMailer::Base.smtp_settings = {
   :address          => "mail.its-supermurgitroid.com",
-  :port             => 26,
+  :port             => 465,
   :domain           => "its-supermurgitroid.com",
   :user_name        => "keen@its-supermurgitroid.com",
   :password         => "sw33t711!!",
