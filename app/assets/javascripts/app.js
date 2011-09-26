@@ -8,6 +8,20 @@
     child.__super__ = parent.prototype;
     return child;
   };
+  Array.prototype.attr_sort = function(attribute) {
+    var hold_arr, item, match_arr, _i, _len;
+    match_arr = this;
+    hold_arr = [];
+    for (_i = 0, _len = match_arr.length; _i < _len; _i++) {
+      item = match_arr[_i];
+      hold_arr.push($(item).attr(attribute));
+    }
+    hold_arr.sort();
+    $.each(match_arr, function(index, val) {
+      return $(val).attr(attribute, hold_arr[index]);
+    });
+    return match_arr;
+  };
   Loader = (function() {
     function Loader(directory, fallback) {
       this.directory = directory;
@@ -49,6 +63,10 @@
       return $(img).load(function() {
         return self.loaded.push(img);
       });
+    };
+    Loader.prototype.set_complete = function() {
+      this.loaded = this.loaded.attr_sort('src');
+      return this.loaded_complete = true;
     };
     return Loader;
   })();
@@ -155,7 +173,8 @@
       record = this.get(data.title)[0];
       if (!record) {
         record = this.create(data.title, data.map, data.assoc, $(page));
-      } else {
+      }
+      if (record.cid !== 'c1') {
         record.set({
           map: data.map,
           associated: data.assoc
@@ -177,6 +196,9 @@
       };
     };
     Page_Manager.prototype.get_image = function(array, position) {
+      if (array.loaded.length === array.files.length && !array.loaded_complete && array.files.length > 1) {
+        array.set_complete();
+      }
       if (!!array.loaded[position]) {
         return array.loaded[position];
       } else {
@@ -433,7 +455,6 @@
       self = this;
       data = this.form.serializeArray();
       return $.post(this.form.attr('action') + '.json', data, function(data) {
-        console.log(data);
         self.status = true;
         if (data.status === 'error') {
           self.message('error', 'Please decode the message and place it in the captcha field.');
@@ -461,8 +482,8 @@
         });
         return false;
       }
-      this.form.append($('<div class="contact_response"><p class="' + status + '">' + message + '</p></div>'));
-      return this.form.find('.contact_response').slideToggle(time);
+      this.form.after($('<div class="contact_response"><p class="' + status + '">' + message + '</p></div>'));
+      return $('body, html').find('.contact_response').slideToggle(time);
     };
     return Contact;
   })();

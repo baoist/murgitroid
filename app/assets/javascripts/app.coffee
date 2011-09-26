@@ -1,4 +1,16 @@
+Array.prototype.attr_sort = (attribute) ->
+  match_arr = this
+  hold_arr = []
+  hold_arr.push $(item).attr(attribute) for item in match_arr
+  hold_arr.sort()
+
+  $.each match_arr, (index, val) ->
+    $(val).attr attribute, hold_arr[index]
+
+  return match_arr
+
 # Loader for background images.
+# add a .loaded method and order method to make certain that the order is proper. revert to set on initial Page set so they aren't overwritten, have it so images is ignored currently.
 class Loader
   constructor: (directory, fallback) ->
     @directory = directory
@@ -25,7 +37,12 @@ class Loader
     self = @
     img = new Image('src', location)
     $(img).attr('src', location)
-    $(img).load -> self.loaded.push(img)
+    $(img).load ->
+      self.loaded.push(img)
+
+  set_complete: ->
+    @loaded = @loaded.attr_sort('src')
+    @loaded_complete = true
 
 # transition handler
 class Transitioner
@@ -111,10 +128,10 @@ class Page_Manager extends Backbone.View
     
     record = @get(data.title)[0]
     
-    if !record # checks existance of the record
+    if !record
       record = @create(data.title, data.map, data.assoc, $(page))
-    else
-      record.set({ map: data.map, associated: data.assoc }) # may want to change to check if images differ
+
+    record.set({ map: data.map, associated: data.assoc }) if record.cid != 'c1'
 
     @set(record)
     setTimeout ->
@@ -128,6 +145,8 @@ class Page_Manager extends Backbone.View
     { title: page.replace('#', ''), map: @get_image(@maps, position), assoc: @get_image(@assoc, position) }
 
   get_image: (array, position) ->
+    if array.loaded.length == array.files.length and !array.loaded_complete and array.files.length > 1
+      array.set_complete()
     return if !!array.loaded[position] then array.loaded[position] else array.fallback
 
   get: (title) ->
@@ -140,8 +159,7 @@ class Page_Manager extends Backbone.View
     @collection.add(item)
     item
     
-    # add decoded
-  pagelist: -> # gets the ids of all the pages for positioning
+  pagelist: ->
     pages = []
     pages.push $(section).attr('href') for section in $('nav#main a')
     pages
@@ -317,7 +335,6 @@ class Contact
 
     data = @form.serializeArray()
     $.post @form.attr('action') + '.json', data, (data) ->
-      console.log data
       self.status = true
       if data.status == 'error'
         self.message('error', 'Please decode the message and place it in the captcha field.')
@@ -338,8 +355,8 @@ class Contact
         $(this).remove()
         self.message status, message
       return false
-    @form.append $('<div class="contact_response"><p class="' + status + '">' + message + '</p></div>')
-    @form.find('.contact_response').slideToggle time
+    @form.after $('<div class="contact_response"><p class="' + status + '">' + message + '</p></div>')
+    $('body, html').find('.contact_response').slideToggle time
 
 code_focus = (obj, ele) ->
   return false if !obj.allowed(ele)

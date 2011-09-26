@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, a, p, input, textarea, label, div, section, article, foo
   font-weight: normal;
 }
 
-hgroup h2, #code form, input, .encoded_message h1, .coded_message h1, .encoded_message h2, coded_message h2, .encoded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span {
+hgroup h2, #code form, input, .encoded_message h1, .coded_message h1, .encoded_message h2, coded_message h2, .encoded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span, .contact_response p {
   font-family: "League Gothic", "LeagueGothicRegular", sans-serif;
 }
 
@@ -526,13 +526,18 @@ body #wrapper form .submit_area label {
   line-height: 38px;
 }
 
-body #contact form p.error {
+body #contact p.error {
   color: #DD4033;
+  margin-top: 0;
 }
-body #contact form p.success {
+body #contact p.success {
   color: #89D357;
+  margin-top: 0;
 }
 
 .contact_response {
   display: none;
+  float: left;
+  width: 440px;
+  font-size: 24px;
 }
