@@ -410,8 +410,8 @@
         if (data.status === "error") {
           return false;
         }
-        $('#decoded').find('hgroup h1').text(data.message);
-        return $('#decoded_link').click();
+        $('#decoded_link').click();
+        return $('#decoded').find('hgroup h1').text(data.message);
       });
     };
     Coder.prototype.check = function(key_val, element, char_pos) {

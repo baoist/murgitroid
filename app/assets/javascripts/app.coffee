@@ -306,8 +306,8 @@ class Coder
 
     $.post @form.attr('action') + '.json', data, (data) ->
       return false if data.status == "error"
-      $('#decoded').find('hgroup h1').text(data.message)
       $('#decoded_link').click()
+      $('#decoded').find('hgroup h1').text(data.message)
     
   check: (key_val, element, char_pos) ->
     return true if $(element).is('textarea')
