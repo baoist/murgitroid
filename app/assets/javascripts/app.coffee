@@ -10,7 +10,7 @@ Array.prototype.attr_sort = (attribute) ->
   return match_arr
 
 # Loader for background images.
-# add a .loaded method and order method to make certain that the order is proper. revert to set on initial Page set so they aren't overwritten, have it so images is ignored currently.
+# add a .loaded method and order method to make certain that the order is proper. Make sure Page positioning doesn't include initial.
 class Loader
   constructor: (directory, fallback) ->
     @directory = directory
@@ -108,6 +108,7 @@ class Page_Manager extends Backbone.View
   init: (page) ->
     page =  if !page or $.inArray('#' + page, @pages) == -1 then '#code' else '#' + page
     position = $.inArray(page, @pages)
+    @start_pos = position
       
     title = page.replace('#', '')
     data = @get_data(page)
@@ -142,6 +143,7 @@ class Page_Manager extends Backbone.View
   
   get_data: (page) ->
     position = $.inArray(page, @pages)
+    position-- if position > @start_pos
     { title: page.replace('#', ''), map: @get_image(@maps, position), assoc: @get_image(@assoc, position) }
 
   get_image: (array, position) ->

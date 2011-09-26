@@ -153,6 +153,7 @@
       var data, position, start_height, starter, title;
       page = !page || $.inArray('#' + page, this.pages) === -1 ? '#code' : '#' + page;
       position = $.inArray(page, this.pages);
+      this.start_pos = position;
       title = page.replace('#', '');
       data = this.get_data(page);
       starter = this.create(data.title, data.map, data.assoc, $(page));
@@ -189,6 +190,9 @@
     Page_Manager.prototype.get_data = function(page) {
       var position;
       position = $.inArray(page, this.pages);
+      if (position > this.start_pos) {
+        position--;
+      }
       return {
         title: page.replace('#', ''),
         map: this.get_image(this.maps, position),
