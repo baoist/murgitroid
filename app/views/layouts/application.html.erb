@@ -10,7 +10,9 @@
     <meta name="Designer" content="Douglas A. Brull. G-G Amalgamated, LLP - Grandpa-George Design and Interactive" /> 
     <meta name="Author" content="G-G Amalgamated, LLP - Grandpa-George Design and Interactive" /> 
     <title><%= if !@page.nil? then @page.capitalize << " | " end %>Code and Decode Secret Messages | It’s SuperMurgitroid</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"> 
     <%= stylesheet_link_tag "style" %>
+    <%= stylesheet_link_tag "mobile", :media => "only screen and (max-width: 480px)" %>
     <noscript><%= stylesheet_link_tag "noscript" %></noscript>
     <%= csrf_meta_tags %>
     <meta property="og:type" content="website" />

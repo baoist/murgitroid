@@ -1,0 +1,41 @@
+/**/
+
+#wrapper {
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+nav#main {
+  position: fixed;
+  bottom: 10px;
+}
+
+/* globals */
+body #wrapper header hgroup h2 {
+  font-family: "League Gothic", "LeagueGothicRegular", helvetica; 
+  font-size: 1.125em;
+}
+article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup {
+  width: 100%;
+  background: none;
+}
+header hgroup, body #wrapper header, #content {
+  margin: 0;
+}
+
+#code_wheel, #decode_wheel, #home, body #header {
+  display: none !important;
+}
+
+/* header */
+body #wrapper header hgroup h1 a {
+  width: 100%;
+  background-size: 100%;
+  height: auto;
+  font-size: 1.5em;
+}
+body #wrapper header hgroup h2 {
+  text-align: left;
+}
