@@ -15,7 +15,7 @@ nav#main {
 /* globals */
 body #wrapper header hgroup h2 {
   font-family: "League Gothic", "LeagueGothicRegular", helvetica; 
-  font-size: 1.0625em;
+  font-size: 1em;
 }
 article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup {
   width: 100%;
