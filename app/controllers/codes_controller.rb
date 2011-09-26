@@ -14,6 +14,7 @@ class CodesController < ApplicationController
 
   def page
     @code = Code.new
+    @page = params[:current_page]
     @message = params[:message]
 
     respond_to do |format|
