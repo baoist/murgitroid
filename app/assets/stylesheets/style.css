@@ -528,11 +528,11 @@ body #wrapper form .submit_area label {
 
 body #contact p.error {
   color: #DD4033;
-  margin-top: 0;
+  margin-top: 400px;
 }
 body #contact p.success {
   color: #89D357;
-  margin-top: 0;
+  margin-top: 400px;
 }
 
 .contact_response {
