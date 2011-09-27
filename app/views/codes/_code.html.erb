@@ -1,7 +1,7 @@
 <%= form_for(@code, :url => encode_url) do |f| %>
   <section class="fields">
     <%= f.label :master, raw("<span>1.</span>Pick a Master Code ( 1&ndash;9 )") %>
-    <%= f.text_field :master, :maxlength => 1 %>
+    <%= f.number_field :master, :min => "1", :max => "9", :maxlength => 1 %>
     <%= f.label :key_a, raw("<span>2.</span>Pick 2 Characters to Use as a Key") %>
     <%= f.text_field :key_a, :maxlength => 1 %>
     <span for="code_key_two">=</span> 
