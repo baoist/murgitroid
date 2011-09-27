@@ -535,6 +535,9 @@
         maps_resize.state();
         return assoc_resize.state();
       });
+    } else {
+      maps = [];
+      assoc = [];
     }
     if ($('#main_content').is('*')) {
       inner = new Loader("inner", $("#code_wheel .inner"));

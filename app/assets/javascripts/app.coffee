@@ -400,6 +400,9 @@ jQuery(document).ready ->
     $(window).resize ->
       maps_resize.state()
       assoc_resize.state()
+  else
+    maps = []
+    assoc = []
 
   if $('#main_content').is('*')
     inner = new Loader("inner", $("#code_wheel .inner"))
