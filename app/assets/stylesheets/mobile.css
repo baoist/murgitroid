@@ -40,6 +40,15 @@ body #wrapper header hgroup h1 a, body #wrapper header hgroup h1 {
   height: 50px;
   font-size: 1.5em;
 }
+
+
 body #wrapper header hgroup h2 {
   text-align: left;
+}
+
+@media screen and (max-width: 320px)
+{
+  body #wrapper header hgroup h1 a, body #wrapper header hgroup h1 {
+    height: 25px;
+  }
 }
