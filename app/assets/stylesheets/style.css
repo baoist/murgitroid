@@ -546,3 +546,7 @@ body #contact p.success {
   width: 440px;
   font-size: 24px;
 }
+
+input {
+  -webkit-appearance: none !important;
+}
