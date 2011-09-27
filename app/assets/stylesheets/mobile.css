@@ -7,11 +7,23 @@
   font-size: 16px;
 }
 
-nav#main {
+body #wrapper nav#main {
+  background-color:rgba(32,35,66,0.75);
+  overflow: hidden;
+  height: 40px;
+  margin-top: 10px;
+}
+
+body#home_page nav#main {
   position: fixed;
   bottom: 5px;
   left: 5%;
   width: 90%;
+}
+
+nav#main {
+  position: relative;
+  width: 100%;
 }
 
 /* globals */
@@ -25,13 +37,6 @@ article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, b
 
 body #content #main_content {
   padding-bottom: 15px;
-}
-
-body #wrapper nav#main {
-  width: 90%;
-  background-color:rgba(32,35,66,0.75);
-  overflow: hidden;
-  height: 40px;
 }
 
 article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup {
@@ -130,6 +135,9 @@ body #wrapper #content form textarea {
   padding: 5%;
 }
 
+#about h1, #about h2, #about h3 {
+  margin: 5px 0;
+}
 /* portrait specific */
 @media screen and (max-width: 320px)
 {
