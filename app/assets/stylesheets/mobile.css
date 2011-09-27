@@ -59,7 +59,7 @@ nav#main a {
   font-size: 1.35em;
   margin: 8px 1% 0 1%;
   width: 30%;
-  height: 32px;
+  height: 29px;
   overflow: hidden;
   text-align: center;
 }
@@ -72,6 +72,6 @@ body#home_page #people {
 @media screen and (max-width: 320px)
 {
   body #wrapper header hgroup h1 a, body #wrapper header hgroup h1 {
-    height: 28px;
+    height: 30px;
   }
 }
