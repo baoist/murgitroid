@@ -401,7 +401,7 @@
       navi.append($('<a>').attr({
         "class": 'facebook',
         target: 'new',
-        href: 'http://www.facebook.com/share.php?u=http://its-supermurgitroid.com/page/decode&t=Decode My Message on Its-Supermurgitroid'
+        href: 'http://www.facebook.com/share.php?u=http://its-supermurgitroid.com/page/decode&t=Decode My Message on Its-SuperMurgitroid'
       }).text('Post on Facebook'));
       navi.append($('<a>').attr({
         "class": 'twitter',
@@ -410,7 +410,7 @@
       }).text('Tweet'));
       navi.append($('<a>').attr({
         "class": 'email',
-        href: "mailto:?subject=Decode My Message on its-supermurgitoird.com&body=" + message
+        href: "mailto:?subject=Decode My Message on its-supermurgitoird.com&body=This message is for your eyes only. Contact me if you need the master code and key." + escape("\n") + escape("\n") + message
       }).text('Send with Email'));
       navi.appendTo(new_el);
       new_el.prependTo(container);
