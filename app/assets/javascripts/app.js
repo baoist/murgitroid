@@ -1,5 +1,5 @@
 (function() {
-  var Coder, Contact, Loader, Page, Page_Manager, Pages, Resize, Transitioner, Wheel, code_focus;
+  var Coder, Contact, Loader, Page, Page_Manager, Pages, Resize, Transitioner, Wheel, code_focus, is_iProduct;
   var __hasProp = Object.prototype.hasOwnProperty, __extends = function(child, parent) {
     for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; }
     function ctor() { this.constructor = child; }
@@ -521,16 +521,21 @@
       return obj.set_next(ele);
     });
   };
+  is_iProduct = function() {
+    return (navigator.platform.indexOf("iPhone") !== -1) || (navigator.platform.indexOf("iPod") !== -1) || (navigator.platform.indexOf("iPad") !== -1);
+  };
   jQuery(document).ready(function() {
     var assoc, assoc_resize, code_wheel, coder, contact, decode_wheel, decoder, inner, maps, maps_resize, pages;
-    maps = new Loader("maps", $('#maps').find('img'));
-    assoc = new Loader("assoc", $('#people').find('img'));
-    maps_resize = new Resize($('#maps'), $('#maps').find('img'));
-    assoc_resize = new Resize($('#people'), $('#people').find('img'));
-    $(window).resize(function() {
-      maps_resize.state();
-      return assoc_resize.state();
-    });
+    if (!is_iProduct()) {
+      maps = new Loader("maps", $('#maps').find('img'));
+      assoc = new Loader("assoc", $('#people').find('img'));
+      maps_resize = new Resize($('#maps'), $('#maps').find('img'));
+      assoc_resize = new Resize($('#people'), $('#people').find('img'));
+      $(window).resize(function() {
+        maps_resize.state();
+        return assoc_resize.state();
+      });
+    }
     if ($('#main_content').is('*')) {
       inner = new Loader("inner", $("#code_wheel .inner"));
       code_wheel = new Wheel($('#code_wheel'), inner);
