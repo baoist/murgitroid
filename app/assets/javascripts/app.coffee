@@ -381,7 +381,7 @@ code_focus = (obj, ele) ->
   $(ele).val('')
   $(ele)
     .keypress (e) ->
-      acceptable = obj.check(String.fromCharCode(e.charCode), ele) # properly overwrites
+      acceptable = obj.check(String.fromCharCode(e.charCode), ele)
     .keyup (e) ->
       return false if !acceptable
       obj.set_next(ele)
@@ -392,7 +392,7 @@ is_iProduct = ->
 jQuery(document).ready ->
   if !is_iProduct()
     maps = new Loader("maps", $('#maps').find('img'))
-    assoc = new Loader("assoc", $('#people').find('img')) # change to people
+    assoc = new Loader("assoc", $('#people').find('img'))
 
     maps_resize = new Resize($('#maps'), $('#maps').find('img'))
     assoc_resize = new Resize($('#people'), $('#people').find('img'))
@@ -400,9 +400,10 @@ jQuery(document).ready ->
     $(window).resize ->
       maps_resize.state()
       assoc_resize.state()
+
   else
-    maps = []
-    assoc = []
+    maps = new Loader("blank", $('#maps').find('img'))
+    assoc = new Loader("blank", $('#people').find('img'))
 
   if $('#main_content').is('*')
     inner = new Loader("inner", $("#code_wheel .inner"))

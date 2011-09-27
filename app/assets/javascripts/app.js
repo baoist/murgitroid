@@ -536,8 +536,8 @@
         return assoc_resize.state();
       });
     } else {
-      maps = [];
-      assoc = [];
+      maps = new Loader("blank", $('#maps').find('img'));
+      assoc = new Loader("blank", $('#people').find('img'));
     }
     if ($('#main_content').is('*')) {
       inner = new Loader("inner", $("#code_wheel .inner"));
