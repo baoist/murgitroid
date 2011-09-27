@@ -8,7 +8,7 @@
 }
 
 nav#main {
-  position: fixed;
+  position: absolute;
   bottom: 5px;
   left: 5%;
   width: 90%;
@@ -31,6 +31,7 @@ body #wrapper nav#main {
   width: 90%;
   background-color:rgba(32,35,66,0.75);
   overflow: hidden;
+  height: 40px;
 }
 
 article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup {
