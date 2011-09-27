@@ -116,7 +116,7 @@ class Page_Manager extends Backbone.View
     data = @get_data(page)
 
     starter = @create(data.title, data.map, data.assoc, $(page))
-    start_height = if starter.get('content').height() > $(window).height() - $('header').height() then starter.get('content').height() + 35 else $(window).height() - $('header').height()
+    start_height = if starter.get('content').height() > $(window).height() - $('header').height() then starter.get('content').height() + 50 else $(window).height() - $('header').height() - 10
     starter.get('content').height(start_height).appendTo(@main)
     @active = data.title
     starter

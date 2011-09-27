@@ -159,7 +159,7 @@
       title = page.replace('#', '');
       data = this.get_data(page);
       starter = this.create(data.title, data.map, data.assoc, $(page));
-      start_height = starter.get('content').height() > $(window).height() - $('header').height() ? starter.get('content').height() + 35 : $(window).height() - $('header').height();
+      start_height = starter.get('content').height() > $(window).height() - $('header').height() ? starter.get('content').height() + 50 : $(window).height() - $('header').height() - 10;
       starter.get('content').height(start_height).appendTo(this.main);
       this.active = data.title;
       return starter;
