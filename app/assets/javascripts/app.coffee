@@ -176,7 +176,7 @@ class Page_Manager extends Backbone.View
     @trans_map.swap($(page.get('map')), {'margin-top': 0, 'z-index': 1})
     @trans_assoc.swap($(page.get('associated')), {'margin-top': $('html, body').height() * 3, 'z-index': 1})
     @trans_content.swap(page.get('content'), {'margin-top': $('html, body').height()})
-    content_height = if page.get('content').height() > ($(window).height() - $('#main_content').offset().top) then page.get('content').height() else $(window).height() - $('#main_content').offset().top - 50
+    content_height = if page.get('content').height() > ($(window).height() - $('#main_content').offset().top) then page.get('content').height() + 20 else $(window).height() - $('#main_content').offset().top - 50
     @main.height(content_height)
 
   reset_forms: ->

@@ -326,6 +326,10 @@ body #wrapper form .submit_area label {
   cursor: pointer;
 }
 
+.submit_area input:hover, .submit_area:active {
+  background: #257182;
+}
+
 .encoded_message h1, .encoded_message h2, .coded_message h1, .coded_message h2 {
   text-align: center;
   width: 500px;
@@ -538,6 +542,10 @@ body #wrapper form .submit_area label {
   height: 35px;
   line-height: 38px;
   margin-top: 2px;
+}
+
+#contact form input#contact_submit:hover, #contact form input#contact_submit:active {
+  background: #2f1500;
 }
 
 body #contact p.error {
