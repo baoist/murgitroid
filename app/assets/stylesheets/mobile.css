@@ -37,7 +37,7 @@ header hgroup, body #wrapper header, #content {
 body #wrapper header hgroup h1 a, body #wrapper header hgroup h1 {
   width: 100%;
   background-size: 100%;
-  height: 55px;
+  height: 50px;
   font-size: 1.5em;
 }
 body #wrapper header hgroup h2 {
