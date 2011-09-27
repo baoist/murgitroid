@@ -130,7 +130,7 @@
       Page_Manager.__super__.constructor.apply(this, arguments);
     }
     Page_Manager.prototype.el = $('body, html');
-    Page_Manager.prototype.initialize = function(maps, assoc) {
+    Page_Manager.prototype.initialize = function(maps, assoc, coder, decoder) {
       var initial_item;
       this.collection = new Pages();
       this.maps = maps;
@@ -138,6 +138,8 @@
       this.pages = this.pagelist();
       this.disabled = false;
       this.main = $('#main_content');
+      this.coder = coder;
+      this.decoder = decoder;
       initial_item = this.init(window.location.href.split('/')[window.location.href.split('/').length - 1]);
       this.time = 1100;
       this.trans_map = new Transitioner(initial_item.get('map'), this.time);
@@ -183,7 +185,10 @@
       }
       this.set(record);
       setTimeout(function() {
-        return self.disabled = false;
+        self.disabled = false;
+        if (self.active === 'decoded' && self.get('code')) {
+          return self.reset_forms();
+        }
       }, this.time);
       return e.preventDefault();
     };
@@ -252,6 +257,16 @@
       });
       content_height = page.get('content').height() > ($(window).height() - $('#main_content').offset().top) ? page.get('content').height() : $(window).height() - $('#main_content').offset().top - 50;
       return this.main.height(content_height);
+    };
+    Page_Manager.prototype.reset_forms = function() {
+      var code;
+      code = this.get('code')[0].get('content');
+      if ($(code).find('.encoded_message').is('*')) {
+        $(code).find('.encoded_message').remove();
+        $(code).find('#code_wheel').show();
+        this.coder.disallow();
+      }
+      return this.decoder.disallow();
     };
     return Page_Manager;
   })();
@@ -337,6 +352,7 @@
     }
     Coder.prototype.disallow = function() {
       this.fields = this.form.find('input[type=text], textarea');
+      this.fields.val('');
       return this.fields.not(':first').addClass('unavailable');
     };
     Coder.prototype.allowed = function(field) {
@@ -377,9 +393,7 @@
         return false;
       }
       if ($('#code_wheel').is('*')) {
-        $('#code_wheel').slideToggle(time, function() {
-          return $(this).remove();
-        });
+        $('#code_wheel').slideUp(time);
       }
       new_el = $('<div>').addClass('encoded_message').css('display', 'none');
       new_el.append('<hgroup>').append('<h2>your message</h2><h1>' + message + '</h1>');
@@ -518,12 +532,12 @@
       return assoc_resize.state();
     });
     if ($('#main_content').is('*')) {
-      pages = new Page_Manager(maps, assoc);
       inner = new Loader("inner", $("#code_wheel .inner"));
       code_wheel = new Wheel($('#code_wheel'), inner);
       decode_wheel = new Wheel($('#decode_wheel'), inner);
       coder = new Coder($('#code form'), code_wheel, 'code');
       decoder = new Coder($('#decode form'), decode_wheel, 'decode');
+      pages = new Page_Manager(maps, assoc, coder, decoder);
       contact = new Contact($('#new_contact'));
       $('#code form input[type!=submit], #code form textarea').focus(function() {
         return code_focus(coder, this);

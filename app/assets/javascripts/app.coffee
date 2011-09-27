@@ -84,13 +84,15 @@ class Pages extends Backbone.Collection
 class Page_Manager extends Backbone.View
   el: $('body, html')
 
-  initialize: (maps, assoc)->
+  initialize: (maps, assoc, coder, decoder) ->
     @collection = new Pages()
     @maps = maps
     @assoc = assoc
     @pages = @pagelist()
     @disabled = false
     @main = $('#main_content')
+    @coder = coder
+    @decoder = decoder
 
     initial_item = @init(window.location.href.split('/')[window.location.href.split('/').length-1])
 
@@ -137,6 +139,8 @@ class Page_Manager extends Backbone.View
     @set(record)
     setTimeout ->
       self.disabled = false
+      if self.active == 'decoded' and self.get('code')
+        self.reset_forms()
     , @time
 
     e.preventDefault()
@@ -174,6 +178,16 @@ class Page_Manager extends Backbone.View
     @trans_content.swap(page.get('content'), {'margin-top': $('html, body').height()})
     content_height = if page.get('content').height() > ($(window).height() - $('#main_content').offset().top) then page.get('content').height() else $(window).height() - $('#main_content').offset().top - 50
     @main.height(content_height)
+
+  reset_forms: ->
+    code = @get('code')[0].get('content')
+
+    if $(code).find('.encoded_message').is('*')
+      $(code).find('.encoded_message').remove()
+      $(code).find('#code_wheel').show()
+      @coder.disallow()
+    
+    @decoder.disallow()
 
 # resize for browser
 class Resize
@@ -251,6 +265,7 @@ class Coder
 
   disallow: ->
     @fields = @form.find('input[type=text], textarea')
+    @fields.val('')
     @fields.not(':first').addClass('unavailable')
 
   allowed: (field) ->
@@ -286,8 +301,7 @@ class Coder
         self.show_code container, message
       return false
     if $('#code_wheel').is('*')
-      $('#code_wheel').slideToggle time , ->
-        $(this).remove()
+      $('#code_wheel').slideUp time
 
     new_el = $('<div>').addClass('encoded_message').css 'display', 'none'
     new_el.append('<hgroup>').append('<h2>your message</h2><h1>'+ message + '</h1>')
@@ -383,15 +397,14 @@ jQuery(document).ready ->
     assoc_resize.state()
 
   if $('#main_content').is('*')
-    pages = new Page_Manager(maps, assoc)
-
     inner = new Loader("inner", $("#code_wheel .inner"))
-
     code_wheel = new Wheel($('#code_wheel'), inner)
     decode_wheel = new Wheel($('#decode_wheel'), inner)
 
     coder = new Coder($('#code form'), code_wheel, 'code')
     decoder = new Coder($('#decode form'), decode_wheel, 'decode')
+
+    pages = new Page_Manager(maps, assoc, coder, decoder)
 
     contact = new Contact($('#new_contact'))
 
@@ -404,7 +417,6 @@ jQuery(document).ready ->
     $('#new_decode').submit ->
       decoder.decode()
       false
-
     $('#new_contact').submit ->
       contact.send()
       false

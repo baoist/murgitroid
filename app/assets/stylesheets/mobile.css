@@ -95,7 +95,6 @@ body #content {
 
 body #content form {
   background-color:rgba(47,21,0,0.75);
-  margin-bottom: 10px;
 }
 
 body #content #main_content #code form label, body #content #main_content #decode form label {
