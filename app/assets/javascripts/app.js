@@ -529,16 +529,16 @@
     if (!is_iProduct()) {
       maps = new Loader("maps", $('#maps').find('img'));
       assoc = new Loader("assoc", $('#people').find('img'));
-      maps_resize = new Resize($('#maps'), $('#maps').find('img'));
-      assoc_resize = new Resize($('#people'), $('#people').find('img'));
-      $(window).resize(function() {
-        maps_resize.state();
-        return assoc_resize.state();
-      });
     } else {
       maps = new Loader("blank", $('#maps').find('img'));
       assoc = new Loader("blank", $('#people').find('img'));
     }
+    maps_resize = new Resize($('#maps'), $('#maps').find('img'));
+    assoc_resize = new Resize($('#people'), $('#people').find('img'));
+    $(window).resize(function() {
+      maps_resize.state();
+      return assoc_resize.state();
+    });
     if ($('#main_content').is('*')) {
       inner = new Loader("inner", $("#code_wheel .inner"));
       code_wheel = new Wheel($('#code_wheel'), inner);
