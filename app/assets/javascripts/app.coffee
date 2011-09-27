@@ -264,7 +264,7 @@ class Coder
     @message = ''
 
   disallow: ->
-    @fields = @form.find('input[type=text], textarea')
+    @fields = @form.find('input[type=text], input[type=number], textarea')
     @fields.val('')
     @fields.not(':first').addClass('unavailable')
 

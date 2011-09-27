@@ -351,7 +351,7 @@
       this.message = '';
     }
     Coder.prototype.disallow = function() {
-      this.fields = this.form.find('input[type=text], textarea');
+      this.fields = this.form.find('input[type=text], input[type=number], textarea');
       this.fields.val('');
       return this.fields.not(':first').addClass('unavailable');
     };
