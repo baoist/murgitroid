@@ -125,6 +125,10 @@ body #wrapper #content form textarea {
   padding: 5%;
 }
 
+input {
+  -webkit-appearance: none !important;
+}
+
 /* portrait specific */
 @media screen and (max-width: 320px)
 {
