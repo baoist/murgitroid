@@ -17,8 +17,12 @@ body #wrapper header hgroup h2, nav#main a {
   font-family: "League Gothic", "LeagueGothicRegular", helvetica; 
   font-size: 1em;
 }
-article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup {
+article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup, body #content #code form, body #content #decode form, body #content #main_content, body #content form .fields, body #content section, #about, #faqs,#about h1, #faqs h1, #about p, #about h2, #about article {
   width: 100%;
+}
+
+body #content #main_content {
+  padding-bottom: 15px;
 }
 
 body #wrapper nav#main {
@@ -31,11 +35,11 @@ article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, b
   background: none;
 }
 
-header hgroup, body #wrapper header, #content {
+header hgroup, body #wrapper header, body#home_page #content {
   margin: 0;
 }
 
-#code_wheel, #decode_wheel, #home, body #header {
+#code_wheel, #decode_wheel, #home, body #header, label[for=code_submit], label[for=decode_submit] {
   display: none !important;
 }
 
@@ -66,6 +70,59 @@ nav#main a {
 
 body#home_page #people {
   display: block !important;
+}
+
+body #content {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+body #content form {
+  background-color:rgba(47,21,0,0.75);
+  margin-bottom: 10px;
+}
+
+body #content #main_content #code form label, body #content #main_content #decode form label {
+  width: 94%;
+  padding: 3%;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+body #content #main_content #code form label span, body #content #main_content #decode form label span {
+  line-height: 56px;
+  font-size: 64px;
+}
+
+body #content #main_content #code form input, body #content #main_content #decode form input {
+  margin-bottom: 20px;
+}
+
+body #content #main_content #code form #code_master, body #content #main_content #decode form  #decode_master {
+  margin-left: 40%;
+}
+
+body #content #main_content #code form #code_key_a, body #content #main_content #decode form  #decode_key_a {
+  margin-left: 30%;
+}
+
+body #content #main_content #code form #code_submit, body #content #main_content #decode form  #decode_submit {
+  width: auto;
+  height: auto;
+  margin: 10px 20%;
+  padding: 0 3%;
+  float: left;
+}
+
+body #wrapper #content form textarea {
+  width: 90%;
+  margin: inherit 5%;
+  float: right;
+}
+
+#main_content section#about {
+  width: 90%;
+  padding: 5%;
 }
 
 /* portrait specific */
