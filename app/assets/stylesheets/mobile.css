@@ -19,8 +19,12 @@ body #wrapper header hgroup h2 {
 }
 article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup {
   width: 100%;
+}
+
+article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup {
   background: none;
 }
+
 header hgroup, body #wrapper header, #content {
   margin: 0;
 }
@@ -30,10 +34,10 @@ header hgroup, body #wrapper header, #content {
 }
 
 /* header */
-body #wrapper header hgroup h1 a {
+body #wrapper header hgroup h1 a, body #wrapper header hgroup h1 {
   width: 100%;
   background-size: 100%;
-  height: auto;
+  height: 55px;
   font-size: 1.5em;
 }
 body #wrapper header hgroup h2 {
