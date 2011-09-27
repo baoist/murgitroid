@@ -513,9 +513,18 @@ body #wrapper form .submit_area label {
   padding: 0 2%;
 }
 
+.captcha {
+  width: 186px;
+  float: left;
+}
+
 #contact form input#captcha {
   width: 170px;
   font-size: 28px;
+}
+
+#contact form label {
+  width: 170px;
 }
 
 #contact form input#contact_submit {
@@ -528,6 +537,7 @@ body #wrapper form .submit_area label {
   vertical-align: middle;
   height: 35px;
   line-height: 38px;
+  margin-top: 2px;
 }
 
 body #contact p.error {
