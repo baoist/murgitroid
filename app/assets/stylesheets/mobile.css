@@ -1,4 +1,8 @@
 /**/
+body {
+  background: url(/assets/maps/map-6.jpg) no-repeat top left;
+  background-size: auto 100%;
+}
 
 #wrapper {
   width: 90%;
@@ -47,8 +51,12 @@ header hgroup, body #wrapper header, body#home_page #content {
   margin: 0;
 }
 
-#code_wheel, #decode_wheel, #home, body #header, label[for=code_submit], label[for=decode_submit] {
+#code_wheel, #decode_wheel, #home, body #header, label[for=code_submit], label[for=decode_submit], #maps, #people {
   display: none !important;
+}
+
+#home_page #maps, #home_page #people {
+  display: block !important;
 }
 
 /* header */
@@ -95,6 +103,8 @@ body #content #main_content #code form label, body #content #main_content #decod
   padding: 3%;
   margin: 0;
   vertical-align: bottom;
+  line-height: 94px;
+  height: 60px;
 }
 
 body #content #main_content #code form label span, body #content #main_content #decode form label span {
