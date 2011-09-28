@@ -64,6 +64,10 @@ body .encoded_message h1, body .encoded_message h2, body .coded_message h1, body
   display: none !important;
 }
 
+label {
+  text-align: left !important;
+}
+
 #home_page #maps, #home_page #people, .terms_link {
   display: block !important;
 }
