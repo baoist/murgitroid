@@ -397,10 +397,9 @@
         $('#code_wheel').slideUp(time);
       }
       if (is_iProduct()) {
-        alert('foo');
         $('html, body').animate(function() {
           return {
-            top: 0
+            scrollTop: 0
           };
         }, time);
       }
