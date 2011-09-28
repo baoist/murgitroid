@@ -397,11 +397,12 @@
         $('#code_wheel').slideUp(time);
       }
       if (is_iProduct()) {
+        alert('foo');
         $('html, body').animate(function() {
           return {
             top: 0
           };
-        });
+        }, time);
       }
       new_el = $('<div>').addClass('encoded_message').css('display', 'none');
       new_el.append('<hgroup>').append('<h2>your message</h2><h1>' + message + '</h1>');
