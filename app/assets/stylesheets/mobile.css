@@ -41,6 +41,7 @@ article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, b
 
 body #content #main_content {
   padding-bottom: 15px;
+  height: 100% !important;
 }
 
 article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup {
