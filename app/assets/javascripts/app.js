@@ -149,7 +149,8 @@
     Page_Manager.prototype.events = {
       "click nav#main a": "nav",
       "click a.new_code": "nav",
-      "click a.new_decode": "nav"
+      "click a.new_decode": "nav",
+      "click a.terms_link": "nav"
     };
     Page_Manager.prototype.init = function(page) {
       var data, position, start_height, starter, title;

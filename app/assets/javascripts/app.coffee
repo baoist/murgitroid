@@ -105,6 +105,7 @@ class Page_Manager extends Backbone.View
     "click nav#main a" : "nav",
     "click a.new_code" : "nav"
     "click a.new_decode" : "nav"
+    "click a.terms_link" : "nav"
   }
   
   init: (page) ->

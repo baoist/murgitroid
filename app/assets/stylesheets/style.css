@@ -27,7 +27,7 @@
 }
 
 /* backgrounds */
-#home_page #people {
+#home_page #people, .terms_link {
   display: none;
 }
 

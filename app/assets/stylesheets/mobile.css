@@ -1,6 +1,6 @@
 /**/
 body {
-  background: url(/assets/maps/map-6.jpg) no-repeat top left;
+  background: #1a2905 url(/assets/maps/map-6.jpg) no-repeat top left;
   background-size: auto 100%;
 }
 
@@ -35,29 +35,42 @@ body #wrapper header hgroup h2, nav#main a {
   font-family: "League Gothic", "LeagueGothicRegular", helvetica; 
   font-size: 1em;
 }
-article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup, body #content #code form, body #content #decode form, body #content #main_content, body #content form .fields, body #content section, #about, #faqs,#about h1, #faqs h1, #about p, #about h2, #about article {
+article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup, body #content #code form, body #content #decode form, body #content #main_content, body #content form .fields, body #content section, #about, #faqs,#about h1, #faqs h1, #about p, #about h2, #about article, body .encoded_message, body .encoded_message hgroup, body .encoded_message h1, body .encoded_message h2, body .coded_message h1, body .coded_message h2, body .coded_message hgroup, .encoded_message .social_media a, .encoded_message .social_media, body #terms .terms p, body #terms, body #terms .terms, body #terms h1, body #terms .terms h2, body #wrapper #contact, body #wrapper #contact form {
   width: 100%;
+}
+
+body #terms .terms p, body #terms .terms h2 {
+  width: 90%
 }
 
 body #content #main_content {
   padding-bottom: 15px;
-  height: 100% !important;
+  height: auto !important;
 }
 
 article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup {
   background: none;
 }
 
-header hgroup, body #wrapper header, body#home_page #content {
+header hgroup, body #wrapper header, body#home_page #content, body .encoded_message hgroup, body .encoded_message h1, body .encoded_message h2, body .coded_message h1, body .coded_message h2, body #wrapper .encoded_message .social_media a, body #wrapper #contact form {
   margin: 0;
+}
+
+body .encoded_message h1, body .encoded_message h2, body .coded_message h1, body .coded_message h2, body .encoded_message .social_media a, body #wrapper #contact form, body #contact {
+  padding: 0;
 }
 
 #code_wheel, #decode_wheel, #home, body #header, label[for=code_submit], label[for=decode_submit], #maps, #people {
   display: none !important;
 }
 
-#home_page #maps, #home_page #people {
+#home_page #maps, #home_page #people, .terms_link {
   display: block !important;
+}
+
+.terms_link, #about a {
+  color: #000;
+  text-decoration: underline;
 }
 
 /* header */
@@ -140,6 +153,23 @@ body #wrapper #content form textarea {
   float: right;
 }
 
+body #wrapper #contact input {
+  width: 85%;
+  margin: 5px 5% 5px 5%;
+  padding: 0 2.5%;
+}
+
+body #wrapper #contact label, body #wrapper #contact p {
+  margin: 5px 5%;
+  padding: 0 0 10px 0;
+  width: 90%;
+}
+
+body #wrapper #contact #contact_submit {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
 #main_content section#about {
   width: 90%;
   padding: 5%;
@@ -148,6 +178,30 @@ body #wrapper #content form textarea {
 #about h1, #about h2, #about h3 {
   margin: 5px 0;
 }
+
+body .encoded_message hgroup h2, body .encoded_message hgroup h1 {
+  padding: 0;
+}
+
+body .encoded_message .social_media {
+  margin: 15px 0 20px;
+}
+
+body #wrapper .encoded_message .social_media a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+body #wrapper .new_code {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0 !important;
+}
+
+body #wrapper .facebook_like {
+  margin: 20px 0 0 29%;
+}
+
 /* portrait specific */
 @media screen and (max-width: 320px)
 {
