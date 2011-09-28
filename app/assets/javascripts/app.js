@@ -396,6 +396,13 @@
       if ($('#code_wheel').is('*')) {
         $('#code_wheel').slideUp(time);
       }
+      if (is_iProduct()) {
+        $('html, body').animate(function() {
+          return {
+            top: 0
+          };
+        });
+      }
       new_el = $('<div>').addClass('encoded_message').css('display', 'none');
       new_el.append('<hgroup>').append('<h2>your message</h2><h1>' + message + '</h1>');
       navi = $('<nav>').attr('class', 'social_media');
