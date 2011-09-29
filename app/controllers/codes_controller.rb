@@ -30,13 +30,12 @@ class CodesController < ApplicationController
     puts 'foo'
     puts 'foo'
     puts 'foo'
-    puts user_agent.index('ipod')
-    puts user_agent.index('iphone')
-    puts user_agent.index('ipad')
     puts 'foo'
     puts 'foo'
     @agent = (!user_agent.index('ipod').nil? or !user_agent.index('ipad').nil? or !user_agent.index('iphone').nil?)? 'iproduct' : nil
     puts @agent
+    puts 'foo'
+    puts 'foo'
 
     respond_to do |format|
       format.html # page.html.erb
