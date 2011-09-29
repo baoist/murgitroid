@@ -212,6 +212,10 @@ body #wrapper .facebook_like {
   width: 42%;
 }
 
+fb:fan {
+  margin-left: 20% !important;
+}
+
 /* portrait specific */
 @media screen and (max-width: 320px)
 {
