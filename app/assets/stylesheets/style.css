@@ -396,7 +396,7 @@ body #wrapper form .submit_area label {
   margin: 210px 300px 0 330px;
 }
 
-.coded_message a.facebook_like {
+.coded_message a.facebook_like, div.like span.connect_widget_text {
   background: url(/assets/facebook_like.png) no-repeat top left;
   width: 150px;
   height: 125px;
