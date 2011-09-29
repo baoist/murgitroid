@@ -16,7 +16,7 @@ class CodesController < ApplicationController
     @code = Code.new
     @page = params[:current_page]
     @message = params[:message]
-    user_agent =  request.env['HTTP_USER_AGENT'].downcase
+    user_agent = request.env['HTTP_USER_AGENT'].downcase
     puts user_agent
     puts 'foo'
     puts 'foo'
@@ -28,6 +28,9 @@ class CodesController < ApplicationController
     puts 'foo'
     puts 'foo'
     puts 'foo'
+    puts 'foo'
+    puts 'foo'
+    puts user_agent.index('ipod')
     puts 'foo'
     puts 'foo'
     @agent = (user_agent == user_agent.index('ipod') or user_agent == user_agent.index('ipad') or user_agent == user_agent.index('iphone'))? 'iproduct' : nil
