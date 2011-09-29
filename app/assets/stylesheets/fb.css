@@ -1,5 +1,10 @@
 * {
-  background: none;
+  background: none !important;
+  text-indent: -9999px !important;
+}
+
+img {
+  display: none !important;
 }
 
 #LikeboxPluginPagelet .connect_widget_vertical_center.connect_widget_button_cell {
