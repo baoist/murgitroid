@@ -67,7 +67,7 @@
     cssLink.rel = "stylesheet"; 
     cssLink.type = "text/css"; 
     frame = document.getElementsByTagName('iframe');
-    frames[frame[0].name].document.head.appendChild(cssLink);
+    frames[frame[0].name].document.getElementsByTagName('head')[0].appendChild(cssLink);
   </script>
   <a href="http://www.facebook.com/pages/itsSM/134895206573228" class="facebook_like">Code a New Message</a><fb:like href="http://www.facebook.com/pages/itsSM/134895206573228" width="150" height="80" ref="facebook_like" />
   
