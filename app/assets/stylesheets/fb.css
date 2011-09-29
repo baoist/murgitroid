@@ -1,3 +1,7 @@
-* {
-  font-size: 1000px !important;
+.connect_top {
+  background: none !important;
+}
+
+img {
+  display: none !important;
 }
