@@ -10,7 +10,7 @@ img {
 
 .connect_widget_like_button .liketext {
   display: block !important;
-  background: transparent url(/assets/facebook_like.png) no-repeat top center !important;
+  background: transparent url(http://murgitroid.heroku.com/assets/facebook_like.png) no-repeat top center !important;
   width: 200px !important;
   height: 125px !important;
 }
