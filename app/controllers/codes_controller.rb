@@ -17,25 +17,7 @@ class CodesController < ApplicationController
     @page = params[:current_page]
     @message = params[:message]
     user_agent = request.env['HTTP_USER_AGENT'].downcase
-    puts user_agent
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
-    puts 'foo'
     @agent = (!user_agent.index('ipod').nil? or !user_agent.index('ipad').nil? or !user_agent.index('iphone').nil?)? 'iproduct' : nil
-    puts @agent
-    puts 'foo'
-    puts 'foo'
 
     respond_to do |format|
       format.html # page.html.erb
