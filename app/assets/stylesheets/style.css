@@ -404,6 +404,10 @@ body #wrapper form .submit_area label {
   margin: 70px 300px 0 379px;
 }
 
+#decoded span {
+  width: 100%;
+}
+
 .fb_ltr {
   margin-left: 38%;
 }
