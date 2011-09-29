@@ -404,7 +404,7 @@ body #wrapper form .submit_area label {
   margin: 70px 300px 0 379px;
 }
 
-#decoded span {
+#decoded span, .fb_like_cont {
   width: 100%;
 }
 
