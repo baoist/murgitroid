@@ -35,7 +35,7 @@ class CodesController < ApplicationController
     puts user_agent.index('ipad')
     puts 'foo'
     puts 'foo'
-    @agent = (user_agent == user_agent.index('ipod') or user_agent == user_agent.index('ipad') or user_agent == user_agent.index('iphone'))? 'iproduct' : nil
+    @agent = (!user_agent.index('ipod').nil? or !user_agent.index('ipad').nil? or !user_agent.index('iphone').nil?)? 'iproduct' : nil
     puts @agent
 
     respond_to do |format|
