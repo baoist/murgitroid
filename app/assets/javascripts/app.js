@@ -74,6 +74,7 @@
     function Transitioner(initial, timer, resets) {
       this.prev = $(initial);
       this.time = timer;
+      this.dir = this.prev[0].src && this.prev[0].src.search(/assoc/i) > -1 ? '+' : '-';
     }
     Transitioner.prototype.swap = function(next, resets) {
       var self;
@@ -84,7 +85,7 @@
         next.css(resets);
       }
       next.appendTo(this.prev.parent());
-      this.transition(this.prev, this.time, '-' + (this.prev.height() + 50), function() {
+      this.transition(this.prev, this.time, this.dir + (this.prev.height() + 50), function() {
         return $(this).detach();
       });
       if (!next) {

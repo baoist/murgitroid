@@ -50,12 +50,13 @@ class Transitioner
   constructor: (initial, timer, resets) ->
     @prev = $(initial)
     @time = timer
+    @dir = if @prev[0].src and @prev[0].src.search(/assoc/i) > -1 then '+' else '-'
 
   swap: (next, resets) ->
     return false if !!next.attr('src') and @prev.attr('src') == next.attr('src')
     if resets then next.css(resets)
     next.appendTo(@prev.parent())
-    @transition @prev, @time, '-' + (@prev.height() + 50), ->
+    @transition @prev, @time, @dir + (@prev.height() + 50), ->
       $(this).detach()
     return false if !next
     self = @
