@@ -397,7 +397,7 @@
         $('#code_wheel').slideUp(time);
       }
       if (is_iProduct()) {
-        $('html, body').animate(function() {
+        $('body').animate(function() {
           return {
             scrollTop: 0
           };

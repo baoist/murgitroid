@@ -304,7 +304,7 @@ class Coder
     if $('#code_wheel').is('*')
       $('#code_wheel').slideUp time
     if is_iProduct()
-      $('html, body').animate ->
+      $('body').animate ->
         scrollTop: 0
       , time
 
