@@ -212,8 +212,8 @@ body #wrapper .facebook_like {
   width: 42%;
 }
 
-fb:fan {
-  margin-left: 20% !important;
+body .fb_ltr {
+  margin-left: 20%;
 }
 
 /* portrait specific */

@@ -404,6 +404,10 @@ body #wrapper form .submit_area label {
   margin: 70px 300px 0 379px;
 }
 
+.fb_ltr {
+  margin-left: 38%;
+}
+
 #terms, #about, #faqs, #contact {
   background-color:rgba(255,248,228,0.5);
   padding: 10px 20px;
