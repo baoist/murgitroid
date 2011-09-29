@@ -3,7 +3,7 @@
   display: none !important;
 }
 
-body .connect_widget_vertical_center.connect_widget_button_cell {
+#LikeboxPluginPagelet .connect_widget_vertical_center.connect_widget_button_cell {
   display: block !important;
   background: transparent url(/assets/facebook_like.png) no-repeat top center !important;
   width: 200px !important;
