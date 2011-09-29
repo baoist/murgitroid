@@ -16,3 +16,7 @@ img {
   width: 200px !important;
   height: 125px !important;
 }
+
+.like_button__like .like_text {
+  background-position: bottom center !important;
+}
