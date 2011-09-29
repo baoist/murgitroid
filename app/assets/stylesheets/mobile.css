@@ -217,7 +217,12 @@ body .fb_ltr {
 }
 
 .fb_like_cont {
-  margin-left: -20%;
+  padding-left: 20%;
+}
+
+.fb_like_cont * {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* portrait specific */
