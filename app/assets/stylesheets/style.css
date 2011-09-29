@@ -228,6 +228,7 @@ nav#home a#go {
   width: 165px;
   margin: 0 10px 10px 0;
   cursor: pointer;
+  text-shadow: 0.09em 0.09em #222;
 }
 
 #code span, #decode span {
@@ -243,6 +244,7 @@ nav#home a#go {
   min-height: 50px;
   margin-right: 0;
   text-align: left;
+  text-shadow: none;
 }
 
 .fields {
@@ -548,7 +550,7 @@ body #wrapper form .submit_area label {
   cursor: pointer !important;
   vertical-align: middle;
   height: 35px;
-  line-height: 38px;
+  line-height: 40px;
   margin-top: 2px;
 }
 

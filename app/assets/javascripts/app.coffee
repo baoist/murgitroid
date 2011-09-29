@@ -117,7 +117,7 @@ class Page_Manager extends Backbone.View
     data = @get_data(page)
 
     starter = @create(data.title, data.map, data.assoc, $(page))
-    start_height = if starter.get('content').height() > $(window).height() - $('header').height() then starter.get('content').height() + 50 else $(window).height() - $('header').height() - 10
+    start_height = if starter.get('content').height() > $(window).height() - $('header').height() - 30 then starter.get('content').height() + 50 else $(window).height() - $('header').height() - 30
     starter.get('content').height(start_height).appendTo(@main)
     @active = data.title
     starter
@@ -177,7 +177,7 @@ class Page_Manager extends Backbone.View
     @trans_map.swap($(page.get('map')), {'margin-top': 0, 'z-index': 1})
     @trans_assoc.swap($(page.get('associated')), {'margin-top': $('html, body').height() * 3, 'z-index': 1})
     @trans_content.swap(page.get('content'), {'margin-top': $('html, body').height()})
-    content_height = if page.get('content').height() > ($(window).height() - $('#main_content').offset().top) then page.get('content').height() + 20 else $(window).height() - $('#main_content').offset().top - 50
+    content_height = if page.get('content').height() > ($(window).height() - $('#main_content').offset().top - 50) then page.get('content').height() + 20 else $(window).height() - $('#main_content').offset().top - 50
     @main.height(content_height)
 
   reset_forms: ->

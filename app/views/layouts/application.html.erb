@@ -22,10 +22,17 @@
     <meta property="og:site_name" content="Its-SuperMurgitroid" /> 
     <meta property="og:image" content="<%= root_url %>assets/fb_icon.png" /> 
     <meta property="og:url" content="<%= root_url %>page" /> 
+    <!--[if lt IE 9]>
+    <%= javascript_include_tag "html5" %>
+    <![endif]--> 
   </head>
   <body id="<% if (request.fullpath == root_path) %>home_page<% end %>">
     <div id="maps" class="wide">
-      <img src="<%= @images[0] %>" />
+      <% if (request.fullpath == root_path) %>
+        <img src="/assets/main_map.jpg" />
+      <% else %>
+        <img src="<%= @images[0] %>" />
+      <% end %>
     </div>
     <div id="people" class="wide">
       <img src="<%= @images[1] %>" />

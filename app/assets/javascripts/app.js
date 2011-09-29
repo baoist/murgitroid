@@ -160,7 +160,7 @@
       title = page.replace('#', '');
       data = this.get_data(page);
       starter = this.create(data.title, data.map, data.assoc, $(page));
-      start_height = starter.get('content').height() > $(window).height() - $('header').height() ? starter.get('content').height() + 50 : $(window).height() - $('header').height() - 10;
+      start_height = starter.get('content').height() > $(window).height() - $('header').height() - 30 ? starter.get('content').height() + 50 : $(window).height() - $('header').height() - 30;
       starter.get('content').height(start_height).appendTo(this.main);
       this.active = data.title;
       return starter;
@@ -256,7 +256,7 @@
       this.trans_content.swap(page.get('content'), {
         'margin-top': $('html, body').height()
       });
-      content_height = page.get('content').height() > ($(window).height() - $('#main_content').offset().top) ? page.get('content').height() + 20 : $(window).height() - $('#main_content').offset().top - 50;
+      content_height = page.get('content').height() > ($(window).height() - $('#main_content').offset().top - 50) ? page.get('content').height() + 20 : $(window).height() - $('#main_content').offset().top - 50;
       return this.main.height(content_height);
     };
     Page_Manager.prototype.reset_forms = function() {
