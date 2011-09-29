@@ -37,14 +37,14 @@
     </script>
   </head>
   <body id="<% if (request.fullpath == root_path) %>home_page<% end %>">
-    <div id="maps" class="wide">
+    <div id="maps" class="">
       <% if (request.fullpath == root_path) %>
         <img src="/assets/main_map.jpg" />
       <% else %>
         <img src="<%= @images[0] %>" />
       <% end %>
     </div>
-    <div id="people" class="wide">
+    <div id="people" class="">
       <img src="<%= @images[1] %>" />
     </div>
     <div id="header"></div>

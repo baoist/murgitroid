@@ -276,7 +276,6 @@
     function Resize(container, image) {
       this.container = container;
       this.image_ratio = this.ratio(image.width(), image.height());
-      this.state();
     }
     Resize.prototype.ratio = function(width, height) {
       return width / height;

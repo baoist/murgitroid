@@ -196,7 +196,6 @@ class Resize
   constructor: (container, image) ->
     @container = container
     @image_ratio = @ratio(image.width(), image.height())
-    @state()
 
   ratio: (width, height) ->
     width / height
