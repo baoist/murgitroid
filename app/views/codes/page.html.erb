@@ -50,7 +50,18 @@
     <h1><%= @decoded if !@decoded.nil? %></h1>
   </hgroup>
   <a href="#code" class="new_code">Code a New Message</a>
-  <a href="#" class="facebook_like">Code a New Message</a><fb:like href="http://www.facebook.com/pages/itsSM/134895206573228" width="150" height="80" ref="facebook_like" />
+  <div id="fb-root"></div>
+  <script src="http://connect.facebook.net/en_US/all.js"></script>
+  <script>
+    FB.init({
+      appId  : '145488605507689',
+      status : true, // check login status
+      cookie : true, // enable cookies to allow the server to access the session
+      xfbml  : true, // parse XFBML
+      oauth  : true // enable OAuth 2.0
+    });
+  </script>
+  <a href="http://www.facebook.com/pages/itsSM/134895206573228" class="facebook_like">Code a New Message</a><fb:like href="http://www.facebook.com/pages/itsSM/134895206573228" width="150" height="80" ref="facebook_like" />
   
 </section>
 <section id="about">
