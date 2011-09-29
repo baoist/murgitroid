@@ -44,8 +44,8 @@
 	position: fixed;
 	width: auto !important;
 	height: 100% !important;
-	top: 0;
 	left: 0;
+  top: 0;
 	bottom: 0;
   right: auto;
   z-index: 2;
