@@ -35,7 +35,7 @@ body #wrapper header hgroup h2, nav#main a {
   font-family: "League Gothic", "LeagueGothicRegular", helvetica; 
   font-size: 1em;
 }
-article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup, body #content #code form, body #content #decode form, body #content #main_content, body #content form .fields, body #content section, #about, #faqs,#about h1, #faqs h1, #about p, #about h2, #about article, body .encoded_message, body .encoded_message hgroup, body .encoded_message h1, body .encoded_message h2, body .coded_message h1, body .coded_message h2, body .coded_message hgroup, .encoded_message .social_media a, .encoded_message .social_media, body #terms .terms p, body #terms, body #terms .terms, body #terms h1, body #terms .terms h2, body #wrapper #contact, body #wrapper #contact form {
+article, section, header, nav, footer, body #wrapper header hgroup h2, h1, h3, body #wrapper header hgroup h1, body #wrapper header hgroup, body #content #code form, body #content #decode form, body #content #main_content, body #content form .fields, body #content section, #about, #faqs,#about h1, #faqs h1, #about p, #about h2, #about article, body .encoded_message, body .encoded_message hgroup, body .encoded_message h1, body .encoded_message h2, body .coded_message h1, body .coded_message h2, body .coded_message hgroup, .encoded_message .social_media a, .encoded_message .social_media, body #terms .terms p, body #terms, body #terms .terms, body #terms h1, body #terms .terms h2, body #wrapper #contact, body #wrapper #contact form, #fourohfour #wrapper #content p {
   width: 100%;
 }
 

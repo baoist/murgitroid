@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, a, p, input, textarea, label, div, section, article, foo
   font-weight: normal;
 }
 
-hgroup h2, #code form, input, .encoded_message h1, .coded_message h1, .encoded_message h2, coded_message h2, .encoded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span, .contact_response p, #terms h1 {
+hgroup h2, #code form, input, .encoded_message h1, .coded_message h1, .encoded_message h2, coded_message h2, .encoded_message .social_media a, #decode form, .coded_message a.new_code, article h2, article ul, #about h1, #about h2, #about h3, #faqs h1, #contact h1, #contact input#contact_submit, #contact p span, .contact_response p, #terms h1, #fourohfour h1 {
   font-family: "League Gothic", "LeagueGothicRegular", sans-serif;
 }
 
@@ -586,3 +586,15 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
+#fourohfour #content h1 {
+  font-size: 140px;
+  margin: 0;
+  text-shadow: 0.03em 0.03em #1d6358;
+}
+
+#fourohfour #content p {
+  clear: left;
+  width: 50%;
+  line-height: 1.5em;
+  text-shadow: 0.1em 0.1em #1d6358;
+}
