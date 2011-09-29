@@ -31,6 +31,8 @@ class CodesController < ApplicationController
     puts 'foo'
     puts 'foo'
     puts user_agent.index('ipod')
+    puts user_agent.index('iphone')
+    puts user_agent.index('ipad')
     puts 'foo'
     puts 'foo'
     @agent = (user_agent == user_agent.index('ipod') or user_agent == user_agent.index('ipad') or user_agent == user_agent.index('iphone'))? 'iproduct' : nil
