@@ -50,7 +50,6 @@
     <h1><%= @decoded if !@decoded.nil? %></h1>
   </hgroup>
   <a href="#code" class="new_code">Code a New Message</a>
-  <div id="fb-root"></div>
   <script src="http://connect.facebook.net/en_US/all.js"></script>
   <script>
     window.fbAsyncInit = function() {
@@ -62,14 +61,10 @@
         oauth  : true // enable OAuth 2.0
       });
     };
-    var cssLink = document.createElement("link");
-    cssLink.href = "/assets/fb.css"; 
-    cssLink.rel = "stylesheet"; 
-    cssLink.type = "text/css"; 
-    frame = document.getElementsByTagName('iframe');
-    frames[frame[0].name].document.getElementsByTagName('head')[0].appendChild(cssLink);
   </script>
-  <a href="http://www.facebook.com/pages/itsSM/134895206573228" class="facebook_like">Code a New Message</a><fb:like href="http://www.facebook.com/pages/itsSM/134895206573228" width="150" height="80" ref="facebook_like" />
+  <a href="http://www.facebook.com/pages/itsSM/134895206573228" class="facebook_like">Code a New Message</a>
+  <!--<fb:like href="http://www.facebook.com/pages/itsSM/134895206573228" width="150" height="80" ref="facebook_like" css="<%= root_url %>assets/fb.css"></fb:like>-->
+  <fb:fan profile_id='145488605507689' width='300' height='256' show_faces='false' stream='false' header='false' css='<%= root_url %>assets/fb.css?1'></fb:fan>
   
 </section>
 <section id="about">
