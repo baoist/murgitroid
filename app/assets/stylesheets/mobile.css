@@ -217,7 +217,8 @@ body .fb_ltr {
 }
 
 .fb_like_cont {
-  padding-left: 20%;
+  padding: 0 25%;
+  width: 50%;
 }
 
 .fb_like_cont * {
