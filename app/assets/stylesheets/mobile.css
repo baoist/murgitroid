@@ -95,9 +95,9 @@ body #wrapper header hgroup h2 {
 
 nav#main a {
   font-size: 1.35em;
-  margin: 8px 1% 0 1%;
+  margin: 10px 1% 0 1%;
   width: 30%;
-  height: 29px;
+  height: 28px;
   overflow: hidden;
   text-align: center;
 }
@@ -120,7 +120,7 @@ body #content #main_content #code form label, body #content #main_content #decod
   padding: 3%;
   margin: 0;
   vertical-align: bottom;
-  line-height: 94px;
+  line-height: 84px;
   height: 60px;
 }
 
@@ -196,14 +196,20 @@ body #wrapper .encoded_message .social_media a {
   margin-bottom: 10px;
 }
 
+#decoded hgroup {
+  margin-top: 15px;
+}
+
 body #wrapper .new_code {
   width: 100%;
   text-align: center;
-  margin: 15px 0 !important;
+  padding: 5px 0;
+  margin: 25px 0 15px !important;
 }
 
 body #wrapper .facebook_like {
   margin: 20px 0 0 29%;
+  width: 42%;
 }
 
 /* portrait specific */
