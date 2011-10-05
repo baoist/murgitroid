@@ -24,5 +24,5 @@ production:
   database: murgitroid
   pool: 5
   username: baoist
-  password: sw33t_711
+  password: [hidden]
   
