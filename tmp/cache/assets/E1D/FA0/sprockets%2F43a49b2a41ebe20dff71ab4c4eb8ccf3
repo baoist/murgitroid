@@ -1,0 +1,4 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@created_atf1399932052.1748302:@value{I"
+class:EFI"StaticAsset;	FI"id;	F"%488dbe0c4fd575a11b0765b6957ef25fI"logical_path;	FI"junction-webfont.woff;	FI"pathname;	FI"7$root/app/assets/stylesheets/junction-webfont.woff;	TI"content_type;	FI"application/octet-stream;	FI"
+mtime;	FI"2012-10-24T13:29:55-05:00;	FI"length;	FI"
+17116;	FI"digest;	F"%6c10c23a134f091f87496c43f2c092caI"_version;	F"%97739329ce42ca4790d6d6355cef77c0:@expires_in0

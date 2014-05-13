@@ -7,6 +7,8 @@ class CodesController < ApplicationController
   # GET /codes
   # GET /codes.json
   def index
+    return redirect_to page_path if mobile_device?
+
     respond_to do |format|
       format.html # index.html.erb
     end

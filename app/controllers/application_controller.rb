@@ -59,4 +59,11 @@ class ApplicationController < ActionController::Base
     end
     return split_msg.join.scan(/.{5}|.+/).join(" ")
   end
+
+private
+
+  def mobile_device?
+    request.user_agent =~ /Mobile|webOS/
+  end
+
 end
